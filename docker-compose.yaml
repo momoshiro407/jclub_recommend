@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: jclub_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+    # command: ["npm", "run", "dev", "--", "--host"]
+
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    container_name: jclub_backend
+    ports:
+      - "5000:5000" # Flask用
+      - "8888:8888" # Jupyter用
+    volumes:
+      - ./backend:/app
+    environment:
+      FLASK_ENV: development
+      FLASK_APP: app.app:app
+      DATABASE_URL: postgresql+psycopg2://juser:jpass1234@db:5432/jclub
+    command: ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:15
+    container_name: jclub_db
+    restart: unless-stopped
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: juser
+      POSTGRES_PASSWORD: jpass1234
+      POSTGRES_DB: jclub
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U juser -d jclub"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
