@@ -2,83 +2,45 @@
 import { ref, onMounted } from "vue"
 import { useRouter } from "vue-router"
 import { useQuizStore } from "../stores/quiz"
-
-const quizStore = useQuizStore()
-const router = useRouter()
+import axios from "axios"
 
 // 診断結果クラブ型
 type ClubResult = {
     id: number;
     name: string;
+    division: number;
+    location: string;
     emblem: string;
     color: string;
-    score: number; // 一致度（%）
-    location: string;
-    website: string;
     description: string;
+    website_url: string;
+    score: number; // 一致度（%）
 }
 
-// モック用クラブデータ（スコアは0で初期化）
-const allResults = ref<ClubResult[]>([
-    {
-        id: 1,
-        name: "浦和レッズ",
-        emblem: "/emblems/urawa.png",
-        color: "#E6002D",
-        score: 0,
-        location: "埼玉県さいたま市",
-        website: "https://www.urawa-reds.co.jp/",
-        description: "熱狂的なファンに支えられる国内屈指の人気クラブ。",
-    },
-    {
-        id: 2,
-        name: "ガンバ大阪",
-        emblem: "/emblems/gamba.png",
-        color: "#004094",
-        score: 0,
-        location: "大阪府吹田市",
-        website: "https://www.gamba-osaka.net/",
-        description: "攻撃的なスタイルと若手育成で知られるクラブ。",
-    },
-    {
-        id: 3,
-        name: "アルビレックス新潟",
-        emblem: "/emblems/niigata.png",
-        color: "#F97600",
-        score: 0,
-        location: "新潟県新潟市",
-        website: "https://www.albirex.co.jp/",
-        description: "地域密着でサポーターと強い絆を持つクラブ。",
-    },
-    {
-        id: 4,
-        name: "FC東京",
-        emblem: "/emblems/fctokyo.png",
-        color: "#004098",
-        score: 0,
-        location: "東京都調布市",
-        website: "https://www.fctokyo.co.jp/",
-        description: "首都クラブとして幅広い層に支持されるチーム。",
-    },
-])
-
-// 上位3件のみを表示
-const results = ref<ClubResult[]>(allResults.value.slice(0, 3));
-
+const quizStore = useQuizStore()
+const router = useRouter()
+const loading = ref(true)
+const results = ref<ClubResult[]>([])
 // アニメーション用スコア
-const animatedScores = ref<number[]>(results.value.map(() => 0))
+const animatedScores = ref<number[]>([])
 
-onMounted(() => {
-    // ランダムスコアを生成して代入
-    results.value.forEach((club, idx) => {
-        const randomScore = Math.floor(Math.random() * 41) + 60 // 60〜100%
-        club.score = randomScore
-
-        // アニメーション用に少し遅らせて表示
-        setTimeout(() => {
-            animatedScores.value[idx] = club.score
-        }, 300 * idx)
-    })
+onMounted(async () => {
+    try {
+        const res = await axios.post('http://localhost:5000/recommend/', { answers: quizStore.answers })
+        results.value = res.data.results
+        // スコア配列を0で初期化してから代入
+        animatedScores.value = results.value.map(() => 0)
+        results.value.forEach((club, idx) => {
+            // アニメーション用に少し遅らせて表示
+            setTimeout(() => {
+                animatedScores.value[idx] = club.score
+            }, 300 * idx)
+        })
+    } catch (err) {
+        console.error('API呼び出し失敗:', err)
+    } finally {
+        loading.value = false
+    }
 })
 
 // 詳細モーダル
@@ -99,10 +61,11 @@ const restart = () => {
 
 <template>
     <div class="p-6 bg-gray-50 min-h-screen">
-        <h1 class="text-3xl font-bold mb-6 text-center text-gray-600">診断結果</h1>
+        <h1 class="text-3xl font-bold mb-6 text-center text-gray-600">あなたにおすすめのクラブ</h1>
 
+        <div v-if="loading" class="text-center text-gray-600 mt-20">診断結果を計算中です…</div>
         <!-- 結果カード -->
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div v-else class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div
                 v-for="(club, idx) in results"
                 :key="club.id"

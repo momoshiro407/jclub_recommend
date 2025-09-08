@@ -1,4 +1,5 @@
 import { defineStore } from "pinia"
+import axios from "axios"
 import Question from "../components/Question.vue"
 
 export type Choice = {
@@ -23,38 +24,18 @@ export const useQuizStore = defineStore('quiz', {
         answers: [] as Answer[],
     }),
     actions: {
-        // 初期化（モックの質問を投入）
-        initQuestions() {
-            this.questions = [
-                {
-                    id: 1,
-                    text: "サッカー観戦のスタイルは？",
-                    choices: [
-                        { id: 1, text: "スタジアムで熱狂したい" },
-                        { id: 2, text: "家でゆったり観たい" }
-                    ]
-                },
-                {
-                    id: 2,
-                    text: "応援したいクラブの地域は？",
-                    choices: [
-                        { id: 1, text: "地元" },
-                        { id: 2, text: "全国的に有名なクラブ" }
-                    ]
-                },
-                {
-                    id: 3,
-                    text: "クラブに求めるものは？",
-                    choices: [
-                        { id: 1, text: "強さ" },
-                        { id: 2, text: "親しみやすさ" }
-                    ]
-                }
-            ]
-            this.answers = this.questions.map(q => ({
-                questionId: q.id,
-                choiceId: null
-            }))
+        async fetchQuestions() {
+            try {
+                const res = await axios.get('http://localhost:5000/questions/')
+                this.questions = res.data.questions
+                // 質問に対応する回答を初期化
+                this.answers = this.questions.map(q => ({
+                    questionId: q.id,
+                    choiceId: null
+                }))
+            } catch (err) {
+                console.error('質問データの取得に失敗:', err)
+            }
         },
         setAnswer(questionId: number, choiceId: number) {
             const answer = this.answers.find(a => a.questionId === questionId)

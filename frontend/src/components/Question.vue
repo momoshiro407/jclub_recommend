@@ -11,7 +11,7 @@ const currentIndex = ref(0)
 // ストアの回答を初期化（初回のみ）
 onMounted(() => {
     if (quizStore.questions.length === 0) {
-        quizStore.initQuestions()
+        quizStore.fetchQuestions()
     }
 })
 
