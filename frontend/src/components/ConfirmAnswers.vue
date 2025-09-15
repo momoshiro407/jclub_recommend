@@ -6,8 +6,10 @@ import { Question, useQuizStore } from "../stores/quiz"
 const quizStore = useQuizStore()
 const router = useRouter()
 
-// 修正対象の質問index（null ならモーダル非表示）
+// 修正対象の質問id（null ならモーダル非表示）
 const editingId = ref<number | null>(null)
+// 修正対象の質問インデックス（表示用）
+const editingIndex = ref<number | null>(null)
 
 // IDから質問を取得
 const getQuestion = (id: number) => {
@@ -26,14 +28,16 @@ const isSelected = (choiceId: number) => {
 }
 
 // 修正モーダルを開く
-const openEditModal = (questionId: number) => {
+const openEditModal = (questionId: number, index: number) => {
     editingId.value = questionId
+    editingIndex.value = index
 }
 
 // 修正を確定
 const selectAnswer = (choiceId: number) => {
     if (editingId.value !== null) {
         quizStore.setAnswer(editingId.value, choiceId)
+        editingIndex.value = null
         editingId.value = null // モーダルを閉じる
     }
 }
@@ -51,17 +55,17 @@ const goToResult = () => {
         <!-- 回答一覧 -->
         <div class="w-full max-w-2xl space-y-4 flex-1">
             <div
-                v-for="question in quizStore.questions"
+                v-for="(question, i) in quizStore.questions"
                 :key="question.id"
                 class="bg-white rounded-xl shadow p-4 flex justify-between items-center"
             >
                 <div class="text-gray-600">
-                    <p class="font-semibold">Q{{ question.id }}. {{ question.text }}</p>
+                    <p class="font-semibold">Q{{ i + 1 }}. {{ question.text }}</p>
                     <p>A. {{ getAnswer(question) }}</p>
                 </div>
                 <button
                 class="text-sm px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-                @click="openEditModal(question.id)"
+                @click="openEditModal(question.id, i + 1)"
                 >
                 修正する
                 </button>
@@ -82,7 +86,7 @@ const goToResult = () => {
         <div v-if="editingId !== null" class="fixed inset-0 bg-gray-500/50 flex items-center justify-center">
             <div class="bg-white p-6 rounded-2xl shadow-xl w-full max-w-md">
                 <h3 class="text-lg font-bold mb-4 text-gray-600">
-                    Q{{ editingId }}. {{ getQuestion(editingId).text }}
+                    Q{{ editingIndex }}. {{ getQuestion(editingId).text }}
                 </h3>
                 <div class="space-y-2">
                     <button

@@ -1,0 +1,66 @@
+[
+    {
+        "text": "サッカー観戦のスタイルは？",
+        "category": 0,
+        "order": 1,
+        "choices": [
+            { "text": "スタジアムで熱狂したい", "order": 1 },
+            { "text": "時々スタジアム観戦したい", "order": 2 },
+            { "text": "家でゆったり観たい", "order": 3 },
+            { "text": "特にこだわらない", "order": 4 }
+        ]
+    },
+    {
+        "text": "応援したいクラブの地域は？",
+        "category": 0,
+        "order": 2,
+        "choices": [
+            { "text": "地元", "order": 1 },
+            { "text": "全国的に有名なクラブ", "order": 2 },
+            { "text": "特にこだわらない", "order": 3 }
+        ]
+    },
+    {
+        "text": "クラブに求めるものは？",
+        "category": 0,
+        "order": 3,
+        "choices": [
+            { "text": "強さ", "order": 1 },
+            { "text": "親しみやすさ", "order": 2 },
+            { "text": "将来性", "order": 3 },
+            { "text": "特にこだわらない", "order": 4 }
+        ]
+    },
+    {
+        "text": "応援したいクラブの規模は？",
+        "category": 0,
+        "order": 4,
+        "choices": [
+            { "text": "大きなクラブ", "order": 1 },
+            { "text": "中くらいのクラブ", "order": 2 },
+            { "text": "小さなクラブ", "order": 3 },
+            { "text": "特にこだわらない", "order": 4 }
+        ]
+    },
+    {
+        "text": "クラブの歴史は？",
+        "category": 0,
+        "order": 5,
+        "choices": [
+            { "text": "歴史あるクラブ", "order": 1 },
+            { "text": "新しいクラブ", "order": 2 },
+            { "text": "特にこだわらない", "order": 3 }
+        ]
+    },
+    {
+        "text": "クラブのプレースタイルの好みは？",
+        "category": 0,
+        "order": 6,
+        "choices": [
+            { "text": "攻撃的", "order": 1 },
+            { "text": "守備的", "order": 2 },
+            { "text": "バランス型", "order": 3 },
+            { "text": "特にこだわらない", "order": 4 }
+        ]
+    }
+]

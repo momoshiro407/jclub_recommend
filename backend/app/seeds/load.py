@@ -2,30 +2,69 @@ import json
 from pathlib import Path
 from flask import current_app
 from ..extensions import db
-from ..models import Club
+from ..models import Club, Question, Choice
 
 
-def run_seed():
-    path = Path(current_app.root_path) / 'seeds' / 'clubs_2025.json'
+def run_seed_clubs():
+    """ seed_clubs_2025.jsonを読み込み、Clubのシードデータを投入する。
+        nameをユニークキーとしてupsertに対応可能。
+    """
+    path = Path(current_app.root_path) / 'seeds' / 'seed_clubs_2025.json'
     if not path.exists():
         raise FileNotFoundError(f'{path} not found')
 
     with open(path, 'r', encoding='utf-8') as f:
-        clubs = json.load(f)
+        payload = json.load(f)
 
-    # upsert: nameをユニークキーとして更新or作成
-    for c in clubs:
-        name = c['name'].strip()
-        division = int(c['division'])
-        location = c['location'].strip()
+    for c in payload:
+        name = c.get('name', '').strip()
+        division = int(c.get('division', 0))
+        location = c.get('location', '').strip()
 
-        existing = Club.query.filter_by(name=name).first()
-        if existing:
-            existing.division = division
-            existing.location = location
-        else:
+        # nameをユニークキーとしてupsert
+        club = Club.query.filter_by(name=name).first()
+        if club is None:
             db.session.add(
                 Club(name=name, division=division, location=location))
+        else:
+            club.division = division
+            club.location = location
 
     db.session.commit()
-    print(f'Seed completed: {len(clubs)} clubs')
+    print(f'Seed completed: clubs inserted')
+
+
+def run_seed_questions():
+    """questions_2025.jsonを読み込み、Question/Choiceのシードデータを投入する。
+        insertのみ対応。
+    """
+    path = Path(current_app.root_path) / 'seeds' / 'seed_questions.json'
+    if not path.exists():
+        raise FileNotFoundError(f'{path} not found')
+
+    with open(path, 'r', encoding='utf-8') as f:
+        payload = json.load(f)
+
+    # 既存データを全削除
+    Choice.query.delete()
+    Question.query.delete()
+    db.session.commit()
+
+    for q in payload:
+        question = Question(
+            text=q.get('text').strip(),
+            category=q.get('category', 0),
+            order=q.get('order', 0)
+        )
+        db.session.add(question)
+        db.session.flush()  # question.id を取得
+
+        for c in q.get('choices', []):
+            db.session.add(Choice(
+                question_id=question.id,
+                text=c.get('text').strip(),
+                order=c.get('order', 0)
+            ))
+
+    db.session.commit()
+    print(f'Seed completed: questions & choices inserted (replaced all)')
