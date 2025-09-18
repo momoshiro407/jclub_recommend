@@ -14,3 +14,11 @@ def register_commands(app):
         from .seeds.load import run_seed_questions
         with app.app_context():
             run_seed_questions()
+
+    @app.cli.command('seed-weights')
+    def seed_weights():
+        """ 質問・選択肢の組と特徴量の重みのマッピング情報をDBに投入
+        """
+        from .seeds.load import run_seed_weights
+        with app.app_context():
+            run_seed_weights()

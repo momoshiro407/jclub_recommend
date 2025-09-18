@@ -1,0 +1,160 @@
+[
+    {
+        "question_order": 1,
+        "choice_order": 1,
+        "weights": [{ "feature": "popularity_score", "weight": 1.0 }]
+    },
+    {
+        "question_order": 1,
+        "choice_order": 3,
+        "weights": [{ "feature": "popularity_score", "weight": -0.5 }]
+    },
+    {
+        "question_order": 2,
+        "choice_order": 1,
+        "weights": [{ "feature": "popularity_score", "weight": 1.0 }]
+    },
+    {
+        "question_order": 2,
+        "choice_order": 3,
+        "weights": [{ "feature": "popularity_score", "weight": -0.5 }]
+    },
+    {
+        "question_order": 3,
+        "choice_order": 1,
+        "weights": [{ "feature": "supporter_heat", "weight": 1.0 }]
+    },
+    {
+        "question_order": 3,
+        "choice_order": 3,
+        "weights": [{ "feature": "supporter_heat", "weight": -0.5 }]
+    },
+    {
+        "question_order": 4,
+        "choice_order": 1,
+        "weights": [{ "feature": "ticket_availability", "weight": 1.0 }]
+    },
+    {
+        "question_order": 4,
+        "choice_order": 3,
+        "weights": [{ "feature": "ticket_availability", "weight": -0.5 }]
+    },
+    {
+        "question_order": 5,
+        "choice_order": 1,
+        "weights": [{ "feature": "rivalry_intensity_preference", "weight": 1.0 }]
+    },
+    {
+        "question_order": 5,
+        "choice_order": 3,
+        "weights": [{ "feature": "rivalry_intensity_preference", "weight": -0.5 }]
+    },
+    {
+        "question_order": 6,
+        "choice_order": 1,
+        "weights": [{ "feature": "strength_long_term", "weight": 1.0 }]
+    },
+    {
+        "question_order": 6,
+        "choice_order": 3,
+        "weights": [{ "feature": "strength_long_term", "weight": -0.5 }]
+    },
+    {
+        "question_order": 7,
+        "choice_order": 1,
+        "weights": [{ "feature": "strength_short_term", "weight": 1.0 }]
+    },
+    {
+        "question_order": 7,
+        "choice_order": 3,
+        "weights": [{ "feature": "strength_short_term", "weight": -0.5 }]
+    },
+    {
+        "question_order": 8,
+        "choice_order": 1,
+        "weights": [{ "feature": "domestic_titles", "weight": 1.0 }]
+    },
+    {
+        "question_order": 8,
+        "choice_order": 2,
+        "weights": [{ "feature": "domestic_titles", "weight": 0.5 }]
+    },
+    {
+        "question_order": 9,
+        "choice_order": 1,
+        "weights": [{ "feature": "international_titles", "weight": 1.0 }]
+    },
+    {
+        "question_order": 9,
+        "choice_order": 2,
+        "weights": [{ "feature": "international_titles", "weight": 0.5 }]
+    },
+    {
+        "question_order": 10,
+        "choice_order": 1,
+        "weights": [{ "feature": "financial_power", "weight": 1.0 }]
+    },
+    {
+        "question_order": 10,
+        "choice_order": 3,
+        "weights": [{ "feature": "financial_power", "weight": -0.5 }]
+    },
+    {
+        "question_order": 11,
+        "choice_order": 1,
+        "weights": [{ "feature": "play_style_attack", "weight": 1.0 }]
+    },
+    {
+        "question_order": 11,
+        "choice_order": 2,
+        "weights": [{ "feature": "play_style_defense", "weight": 1.0 }]
+    },
+    {
+        "question_order": 11,
+        "choice_order": 3,
+        "weights": [
+            { "feature": "play_style_attack", "weight": 0.5 },
+            { "feature": "play_style_defense", "weight": 0.5 }
+        ]
+    },
+    {
+        "question_order": 12,
+        "choice_order": 1,
+        "weights": [{ "feature": "play_style_youth", "weight": 1.0 }]
+    },
+    {
+        "question_order": 12,
+        "choice_order": 2,
+        "weights": [{ "feature": "play_style_youth", "weight": 0.5 }]
+    },
+    {
+        "question_order": 13,
+        "choice_order": 1,
+        "weights": [{ "feature": "stadium_access", "weight": 1.0 }]
+    },
+    {
+        "question_order": 13,
+        "choice_order": 2,
+        "weights": [{ "feature": "stadium_access", "weight": 0.5 }]
+    },
+    {
+        "question_order": 14,
+        "choice_order": 1,
+        "weights": [{ "feature": "stadium_capacity", "weight": 1.0 }]
+    },
+    {
+        "question_order": 14,
+        "choice_order": 3,
+        "weights": [{ "feature": "stadium_capacity", "weight": -0.5 }]
+    },
+    {
+        "question_order": 15,
+        "choice_order": 1,
+        "weights": [{ "feature": "stadium_event_richness", "weight": 1.0 }]
+    },
+    {
+        "question_order": 15,
+        "choice_order": 3,
+        "weights": [{ "feature": "stadium_event_richness", "weight": -0.5 }]
+    }
+]

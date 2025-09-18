@@ -19,7 +19,7 @@ const getQuestion = (id: number) => {
 // 質問IDに対応する回答を取得
 const getAnswer = (question: Question) => {
     const answer = quizStore.answers.find(a => a.questionId === question.id)
-    return question.choices.find(c => c.id === answer.choiceId).text || '未回答'
+    return question.choices.find(c => c.id === answer.choiceId)?.text || '未回答'
 }
 
 const isSelected = (choiceId: number) => {
@@ -28,9 +28,9 @@ const isSelected = (choiceId: number) => {
 }
 
 // 修正モーダルを開く
-const openEditModal = (questionId: number, index: number) => {
+const openEditModal = (questionId: number) => {
     editingId.value = questionId
-    editingIndex.value = index
+    editingIndex.value = quizStore.questions.findIndex(q => q.id === editingId.value) + 1
 }
 
 // 修正を確定
@@ -64,8 +64,8 @@ const goToResult = () => {
                     <p>A. {{ getAnswer(question) }}</p>
                 </div>
                 <button
-                class="text-sm px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-                @click="openEditModal(question.id, i + 1)"
+                    class="text-sm px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                    @click="openEditModal(question.id)"
                 >
                 修正する
                 </button>

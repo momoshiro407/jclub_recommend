@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from flask import current_app
 from ..extensions import db
-from ..models import Club, Question, Choice
+from ..models import Club, Question, Choice, QuestionChoiceWeight
 
 
 def run_seed_clubs():
@@ -53,7 +53,6 @@ def run_seed_questions():
     for q in payload:
         question = Question(
             text=q.get('text').strip(),
-            category=q.get('category', 0),
             order=q.get('order', 0)
         )
         db.session.add(question)
@@ -68,3 +67,42 @@ def run_seed_questions():
 
     db.session.commit()
     print(f'Seed completed: questions & choices inserted (replaced all)')
+
+
+def run_seed_weights():
+    """question_choice_weights.jsonを読み込み、質問・選択肢の組に対応する特徴量の重みのデータを投入する。
+        insertのみ対応。
+    """
+    path = Path(current_app.root_path) / 'seeds' / \
+        'question_choice_weights.json'
+    if not path.exists():
+        raise FileNotFoundError(f'{path} not found')
+
+    with open(path, 'r', encoding='utf-8') as f:
+        payload = json.load(f)
+
+    # 既存データを全削除
+    QuestionChoiceWeight.query.delete()
+    db.session.commit()
+
+    for item in payload:
+        question = Question.query.filter_by(
+            order=item['question_order']).first()
+        if not question:
+            continue
+        choice = Choice.query.filter_by(
+            question_id=question.id, order=item['choice_order']).first()
+        if not choice:
+            continue
+        for w in item['weights']:
+            db.session.add(
+                QuestionChoiceWeight(
+                    question_id=question.id,
+                    choice_id=choice.id,
+                    feature_name=w.get('feature', '').strip(),
+                    weight=w.get('weight', 0.0)
+                )
+            )
+
+    db.session.commit()
+    print(f'Seed completed: weight mappings (replaced all)')
