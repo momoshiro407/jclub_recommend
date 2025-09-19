@@ -11,7 +11,6 @@ def get_questions():
         {
             'id': q.id,
             'text': q.text,
-            'category': q.category,
             'order': q.order,
             'choices': [
                 {

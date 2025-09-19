@@ -22,3 +22,9 @@ def register_commands(app):
         from .seeds.load import run_seed_weights
         with app.app_context():
             run_seed_weights()
+
+    @app.cli.command('update-club-features')
+    def update_club_features():
+        from .seeds.load import update_club_features
+        with app.app_context():
+            update_club_features()
