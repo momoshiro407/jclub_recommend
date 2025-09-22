@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from flask import current_app
 from ..extensions import db
-from ..models import Club, Question, Choice, QuestionChoiceWeight
+from ..models import Club, Question, Choice, QuestionChoiceWeight, Prefecture
 
 
 def run_seed_clubs():
@@ -20,15 +20,29 @@ def run_seed_clubs():
         name = c.get('name', '').strip()
         division = int(c.get('division', 0))
         location = c.get('location', '').strip()
+        emblem_url = c.get('emblem_url', '').strip()
+        team_color = c.get('team_color', '').strip()
+        website_url = c.get('website_url', '').strip()
+        main_stadium = c.get('main_stadium', '').strip()
+        description = c.get('description', '').strip()
+        prefcture_id = int(c.get('prefecture_id', 1))
 
         # nameをユニークキーとしてupsert
         club = Club.query.filter_by(name=name).first()
         if club is None:
             db.session.add(
-                Club(name=name, division=division, location=location))
+                Club(name=name, division=division, location=location, emblem_url=emblem_url,
+                     team_color=team_color, website_url=website_url, main_stadium=main_stadium,
+                     description=description, prefecture_id=prefcture_id))
         else:
             club.division = division
             club.location = location
+            club.emblem_url = emblem_url
+            club.team_color = team_color
+            club.website_url = website_url
+            club.main_stadium = main_stadium
+            club.description = description
+            club.prefecture_id = prefcture_id
 
     db.session.commit()
     print(f'Seed completed: clubs inserted')
@@ -106,6 +120,24 @@ def run_seed_weights():
 
     db.session.commit()
     print(f'Seed completed: weight mappings (replaced all)')
+
+
+def run_seed_prefectures():
+    """seed_prefectures.jsonを読み込み、Prefectureのシードデータを投入する。
+        insertのみ対応。
+    """
+    path = Path(current_app.root_path) / 'seeds' / 'seed_prefectures.json'
+    with open(path, 'r', encoding='utf-8') as f:
+        payload = json.load(f)
+
+    # 既存データを全削除
+    Prefecture.query.delete()
+    for pref in payload:
+        db.session.add(Prefecture(id=pref.get('id'),
+                       name=pref.get('name', '').strip()))
+
+    db.session.commit()
+    print(f'Seed completed: prefectures (replaced all)')
 
 
 def update_club_features():

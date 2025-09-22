@@ -1,5 +1,4 @@
 from .extensions import db
-from sqlalchemy import UniqueConstraint
 
 
 class Club(db.Model):
@@ -8,6 +7,12 @@ class Club(db.Model):
         name: クラブ名
         division: 所属ディビジョン（0=Jリーグ以外,1=J1, 2=J2, 3=J3）
         location: クラブ所在地
+        emblem_url: エンブレム画像URL
+        team_color: チームカラー（HEXカラーコード）
+        website_url: 公式サイトURL
+        main_stadium: メインのホームスタジアム名
+        description: クラブ説明文
+        prefecture_id: 都道府県ID
         特徴量カラム: クラブの特徴を数値化したもの（推薦アルゴリズムで使用）
             - strength_long_term: 長期的な強さ
             - strength_short_term: 短期的な強さ
@@ -30,7 +35,14 @@ class Club(db.Model):
     name = db.Column(db.String(120), unique=True, nullable=False)
     division = db.Column(db.Integer, nullable=False)
     location = db.Column(db.String(120), nullable=False)
-    # TODO: 都道府県でのフィルタリングを考慮し、都道府県のIDを保持するカラムを追加するか検討
+    emblem_url = db.Column(db.String(255), nullable=True)
+    team_color = db.Column(db.String(7), nullable=True)
+    website_url = db.Column(db.String(255), nullable=True)
+    main_stadium = db.Column(db.String(120), nullable=True)
+    # stadium_address = db.Column(db.String(120), nullable=True)
+    description = db.Column(db.Text, nullable=True)
+    prefecture_id = db.Column(
+        db.Integer, db.ForeignKey('prefectures.id'), nullable=False, default=1, server_default="1")
     # ---- 特徴量カラム ----
     # Floatの場合は0.0〜1.0の正規化値を想定
     # Integerの場合は実数値を想定
@@ -71,12 +83,13 @@ class Question(db.Model):
         id: 自動採番主キー
         text: 質問文
         order: 表示順
-        choices: 質問に紐づく選択肢リスト（Choiceモデル）
     """
     __tablename__ = 'questions'
+
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     text = db.Column(db.String(255), nullable=False)
     order = db.Column(db.Integer, nullable=True)
+
     # 質問削除時に選択肢も削除
     choices = db.relationship(
         'Choice',
@@ -95,6 +108,7 @@ class Choice(db.Model):
         order: 表示順
     """
     __tablename__ = 'choices'
+
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     question_id = db.Column(
         db.Integer,
@@ -114,6 +128,7 @@ class QuestionChoiceWeight(db.Model):
         weight: 重み
     """
     __tablename__ = 'question_choice_weights'
+
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     question_id = db.Column(db.Integer, db.ForeignKey(
         'questions.id', ondelete='CASCADE'), nullable=False)
@@ -121,3 +136,16 @@ class QuestionChoiceWeight(db.Model):
         'choices.id', ondelete='CASCADE'), nullable=False)
     feature_name = db.Column(db.String(50), nullable=False)
     weight = db.Column(db.Float, nullable=False, default=0.0)
+
+
+class Prefecture(db.Model):
+    """ 都道府県のモデル
+        id: 自動採番主キー（1〜47）
+        name: 都道府県名
+    """
+    __tablename__ = 'prefectures'
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(50), unique=True, nullable=False)
+
+    clubs = db.relationship('Club', backref='prefecture', lazy=True)

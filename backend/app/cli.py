@@ -23,6 +23,14 @@ def register_commands(app):
         with app.app_context():
             run_seed_weights()
 
+    @app.cli.command('seed-prefectures')
+    def seed_prefectures():
+        """ 都道府県データをDBに投入
+        """
+        from .seeds.load import run_seed_prefectures
+        with app.app_context():
+            run_seed_prefectures()
+
     @app.cli.command('update-club-features')
     def update_club_features():
         from .seeds.load import update_club_features
