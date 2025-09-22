@@ -7,10 +7,12 @@ class Club(db.Model):
         name: クラブ名
         division: 所属ディビジョン（0=Jリーグ以外,1=J1, 2=J2, 3=J3）
         location: クラブ所在地
-        emblem_url: エンブレム画像URL
+        image_url: クラブイメージ画像URL
         team_color: チームカラー（HEXカラーコード）
         website_url: 公式サイトURL
-        main_stadium: メインのホームスタジアム名
+        main_stadium_name: メインのホームスタジアム名
+        stadium_latitude: スタジアムの緯度
+        stadium_longitude: スタジアムの経度
         description: クラブ説明文
         prefecture_id: 都道府県ID
         特徴量カラム: クラブの特徴を数値化したもの（推薦アルゴリズムで使用）
@@ -35,11 +37,12 @@ class Club(db.Model):
     name = db.Column(db.String(120), unique=True, nullable=False)
     division = db.Column(db.Integer, nullable=False)
     location = db.Column(db.String(120), nullable=False)
-    emblem_url = db.Column(db.String(255), nullable=True)
+    image_url = db.Column(db.String(255), nullable=True)
     team_color = db.Column(db.String(7), nullable=True)
     website_url = db.Column(db.String(255), nullable=True)
-    main_stadium = db.Column(db.String(120), nullable=True)
-    # stadium_address = db.Column(db.String(120), nullable=True)
+    main_stadium_name = db.Column(db.String(120), nullable=True)
+    stadium_latitude = db.Column(db.Float, nullable=True)
+    stadium_longitude = db.Column(db.Float, nullable=True)
     description = db.Column(db.Text, nullable=True)
     prefecture_id = db.Column(
         db.Integer, db.ForeignKey('prefectures.id'), nullable=False, default=1, server_default="1")

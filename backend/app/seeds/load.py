@@ -20,10 +20,12 @@ def run_seed_clubs():
         name = c.get('name', '').strip()
         division = int(c.get('division', 0))
         location = c.get('location', '').strip()
-        emblem_url = c.get('emblem_url', '').strip()
+        image_url = c.get('image_url', '').strip()
         team_color = c.get('team_color', '').strip()
         website_url = c.get('website_url', '').strip()
-        main_stadium = c.get('main_stadium', '').strip()
+        main_stadium_name = c.get('main_stadium_name', '').strip()
+        stadium_latitude = c.get('stadium_latitude', 0)
+        stadium_longitude = c.get('stadium_longitude', 0)
         description = c.get('description', '').strip()
         prefcture_id = int(c.get('prefecture_id', 1))
 
@@ -31,16 +33,19 @@ def run_seed_clubs():
         club = Club.query.filter_by(name=name).first()
         if club is None:
             db.session.add(
-                Club(name=name, division=division, location=location, emblem_url=emblem_url,
-                     team_color=team_color, website_url=website_url, main_stadium=main_stadium,
+                Club(name=name, division=division, location=location, image_url=image_url,
+                     team_color=team_color, website_url=website_url, main_stadium=main_stadium_name,
+                     stadium_latitude=stadium_latitude, stadium_longitude=stadium_longitude,
                      description=description, prefecture_id=prefcture_id))
         else:
             club.division = division
             club.location = location
-            club.emblem_url = emblem_url
+            club.image_url = image_url
             club.team_color = team_color
             club.website_url = website_url
-            club.main_stadium = main_stadium
+            club.main_stadium_name = main_stadium_name
+            club.stadium_latitude = stadium_latitude
+            club.stadium_longitude = stadium_longitude
             club.description = description
             club.prefecture_id = prefcture_id
 
