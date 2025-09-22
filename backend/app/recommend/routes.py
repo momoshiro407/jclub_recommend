@@ -58,11 +58,13 @@ def recommend():
             'name': club.name,
             'division': club.division,
             'location': club.location,
-            'emblem': 'https://placehold.jp/80x80.png',  # 仮のエンブレム画像
-            'color': '#000000',  # 仮のカラー
-            'description': '',  # 仮の説明文
-            'website_url': '',  # 仮の公式サイトURL
-            'stadium_name': '',  # 仮のスタジアム名
+            'image_url': club.image_url,
+            'team_color': club.team_color,
+            'website_url': club.website_url,
+            'main_stadium_name': club.main_stadium_name,
+            'stadium_latitude': club.stadium_latitude,
+            'stadium_longitude': club.stadium_longitude,
+            'description': club.description,
             'score': round(club_scores.get(club, 0), 1)
         })
     return jsonify({'results': results})

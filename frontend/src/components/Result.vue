@@ -10,10 +10,13 @@ type ClubResult = {
     name: string;
     division: number;
     location: string;
-    emblem: string;
-    color: string;
-    description: string;
+    image_url: string;
+    team_color: string;
     website_url: string;
+    main_stadium_name: string;
+    stadium_latitude: number;
+    stadium_longitude: number;
+    description: string;
     score: number; // 一致度（%）
 }
 
@@ -72,7 +75,7 @@ const restart = () => {
                 class="bg-white rounded-2xl shadow p-6 cursor-pointer hover:shadow-lg transition transform hover:scale-105"
                 @click="openModal(club)"
             >
-                <img :src="club.emblem" alt="emblem" class="w-16 h-16 mx-auto mb-4" />
+                <img :src="club.image_url" alt="team_image_icon" class="w-16 h-16 mx-auto mb-4" />
                 <h2 class="text-xl font-semibold text-center mb-2 text-gray-500">{{ club.name }}</h2>
                 <p class="text-center text-sm text-gray-500 mb-4">
                 一致度: {{ club.score }}%
@@ -80,7 +83,7 @@ const restart = () => {
                 <div class="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
                     <div
                         class="h-full transition-all duration-700 ease-out"
-                        :style="{ width: animatedScores[idx] + '%', backgroundColor: club.color }"
+                        :style="{ width: animatedScores[idx] + '%', backgroundColor: club.team_color }"
                     ></div>
                 </div>
             </div>
@@ -97,11 +100,12 @@ const restart = () => {
         <div v-if="selectedClub" class="fixed inset-0 bg-gray-500/50 flex items-center justify-center p-4">
             <div class="bg-white rounded-2xl text-gray-500 shadow-lg max-w-lg w-full p-6 relative">
                 <button class="absolute top-3 right-3 text-gray-500 hover:text-gray-800" @click="closeModal">✕</button>
-                <img :src="selectedClub.emblem" alt="emblem" class="w-20 h-20 mx-auto mb-4"/>
+                <img :src="selectedClub.image_url" alt="team_image_icon" class="w-20 h-20 mx-auto mb-4"/>
                 <h2 class="text-2xl font-bold text-center mb-4">{{ selectedClub.name }}</h2>
                 <p class="mb-2">{{ selectedClub.location }}</p>
+                <p class="mb-2">ホームスタジアム： {{ selectedClub.main_stadium_name }}</p>
                 <p class="mb-2">{{ selectedClub.description }}</p>
-                <a :href="selectedClub.website" target="_blank" class="text-blue-600 underline">公式サイト</a>
+                <a :href="selectedClub.website_url" target="_blank" class="text-blue-600 underline">公式サイト</a>
             </div>
         </div>
     </div>
