@@ -10,7 +10,10 @@
     "stadium_latitude": 35.9925,
     "stadium_longitude": 140.6411,
     "description": "国内外で数多くのタイトルを誇る強豪クラブ。高い育成力と勝負どころでの強さが特徴。",
-    "prefecture_id": 8
+    "prefecture_id": 8,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 39095
   },
   {
     "name": "浦和レッズ",
@@ -23,7 +26,10 @@
     "stadium_latitude": 35.9031,
     "stadium_longitude": 139.7171,
     "description": "国内最大級のサポーター数を誇るクラブ。熱狂的なホーム雰囲気と国際舞台での実績あり。",
-    "prefecture_id": 11
+    "prefecture_id": 11,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 62040
   },
   {
     "name": "柏レイソル",
@@ -36,7 +42,10 @@
     "stadium_latitude": 35.853,
     "stadium_longitude": 139.9726,
     "description": "",
-    "prefecture_id": 12
+    "prefecture_id": 12,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15109
   },
   {
     "name": "FC東京",
@@ -49,7 +58,10 @@
     "stadium_latitude": 35.6645,
     "stadium_longitude": 139.5275,
     "description": "",
-    "prefecture_id": 13
+    "prefecture_id": 13,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 47851
   },
   {
     "name": "東京ヴェルディ",
@@ -62,7 +74,10 @@
     "stadium_latitude": 35.6645,
     "stadium_longitude": 139.5275,
     "description": "",
-    "prefecture_id": 13
+    "prefecture_id": 13,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 47851
   },
   {
     "name": "FC町田ゼルビア",
@@ -75,7 +90,10 @@
     "stadium_latitude": 35.5548,
     "stadium_longitude": 139.4444,
     "description": "",
-    "prefecture_id": 13
+    "prefecture_id": 13,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15320
   },
   {
     "name": "川崎フロンターレ",
@@ -88,7 +106,10 @@
     "stadium_latitude": 35.5859,
     "stadium_longitude": 139.6528,
     "description": "近年タイトルを重ねる強豪クラブ。ファンサービスも豊かで、観客動員力が高い。",
-    "prefecture_id": 14
+    "prefecture_id": 14,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 26827
   },
   {
     "name": "横浜F・マリノス",
@@ -101,7 +122,10 @@
     "stadium_latitude": 35.51,
     "stadium_longitude": 139.606,
     "description": "歴史あるクラブ。国際大会でも実績があり、攻撃的なサッカーと華やかな応援で知られる。",
-    "prefecture_id": 14
+    "prefecture_id": 14,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 71624
   },
   {
     "name": "横浜FC",
@@ -114,7 +138,10 @@
     "stadium_latitude": 35.458,
     "stadium_longitude": 139.6068,
     "description": "",
-    "prefecture_id": 14
+    "prefecture_id": 14,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15442
   },
   {
     "name": "湘南ベルマーレ",
@@ -127,7 +154,10 @@
     "stadium_latitude": 35.3315,
     "stadium_longitude": 139.3423,
     "description": "",
-    "prefecture_id": 14
+    "prefecture_id": 14,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15380
   },
   {
     "name": "アルビレックス新潟",
@@ -140,7 +170,10 @@
     "stadium_latitude": 37.8863,
     "stadium_longitude": 139.0418,
     "description": "",
-    "prefecture_id": 15
+    "prefecture_id": 15,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 41684
   },
   {
     "name": "清水エスパルス",
@@ -153,7 +186,10 @@
     "stadium_latitude": 35.0004,
     "stadium_longitude": 138.4489,
     "description": "",
-    "prefecture_id": 22
+    "prefecture_id": 22,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 19594
   },
   {
     "name": "名古屋グランパス",
@@ -166,7 +202,10 @@
     "stadium_latitude": 35.0845,
     "stadium_longitude": 137.1708,
     "description": "地域との結びつきが強く、熱心なサポーターが支えるクラブ。戦術的な試合運びに強みあり。",
-    "prefecture_id": 23
+    "prefecture_id": 23,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 42753
   },
   {
     "name": "京都サンガF.C.",
@@ -179,7 +218,10 @@
     "stadium_latitude": 35.0187,
     "stadium_longitude": 135.5772,
     "description": "",
-    "prefecture_id": 26
+    "prefecture_id": 26,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 21623
   },
   {
     "name": "ガンバ大阪",
@@ -192,7 +234,10 @@
     "stadium_latitude": 34.7934,
     "stadium_longitude": 135.532,
     "description": "西日本を代表するクラブ。攻守のバランスが良く、アカデミー育成にも力を入れている。",
-    "prefecture_id": 27
+    "prefecture_id": 27,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 39694
   },
   {
     "name": "セレッソ大阪",
@@ -205,7 +250,10 @@
     "stadium_latitude": 34.616,
     "stadium_longitude": 135.519,
     "description": "",
-    "prefecture_id": 27
+    "prefecture_id": 27,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 24481
   },
   {
     "name": "ヴィッセル神戸",
@@ -218,7 +266,10 @@
     "stadium_latitude": 34.6568,
     "stadium_longitude": 135.1681,
     "description": "国内外スター選手を擁する注目クラブ。魅せるサッカーを期待させる。",
-    "prefecture_id": 28
+    "prefecture_id": 28,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 29643
   },
   {
     "name": "ファジアーノ岡山",
@@ -231,7 +282,10 @@
     "stadium_latitude": 34.665,
     "stadium_longitude": 133.9161,
     "description": "",
-    "prefecture_id": 33
+    "prefecture_id": 33,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15479
   },
   {
     "name": "サンフレッチェ広島",
@@ -244,7 +298,10 @@
     "stadium_latitude": 34.3938,
     "stadium_longitude": 132.451,
     "description": "紫色を象徴色とするクラブ。スタイルにこだわったプレーと地域貢献活動も盛ん。",
-    "prefecture_id": 34
+    "prefecture_id": 34,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 28347
   },
   {
     "name": "アビスパ福岡",
@@ -257,7 +314,10 @@
     "stadium_latitude": 33.5932,
     "stadium_longitude": 130.4536,
     "description": "",
-    "prefecture_id": 40
+    "prefecture_id": 40,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 21562
   },
   {
     "name": "北海道コンサドーレ札幌",
@@ -270,7 +330,10 @@
     "stadium_latitude": 43.0169,
     "stadium_longitude": 141.4096,
     "description": "",
-    "prefecture_id": 1
+    "prefecture_id": 1,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 38794
   },
   {
     "name": "ベガルタ仙台",
@@ -283,7 +346,10 @@
     "stadium_latitude": 38.3242,
     "stadium_longitude": 140.8811,
     "description": "",
-    "prefecture_id": 4
+    "prefecture_id": 4,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 19526
   },
   {
     "name": "ブラウブリッツ秋田",
@@ -296,7 +362,10 @@
     "stadium_latitude": 39.7516,
     "stadium_longitude": 140.0865,
     "description": "",
-    "prefecture_id": 5
+    "prefecture_id": 5,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 18560
   },
   {
     "name": "モンテディオ山形",
@@ -309,7 +378,10 @@
     "stadium_latitude": 38.3678,
     "stadium_longitude": 140.3809,
     "description": "",
-    "prefecture_id": 6
+    "prefecture_id": 6,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 20638
   },
   {
     "name": "いわきFC",
@@ -322,7 +394,10 @@
     "stadium_latitude": 37.0613,
     "stadium_longitude": 140.892,
     "description": "",
-    "prefecture_id": 7
+    "prefecture_id": 7,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5066
   },
   {
     "name": "水戸ホーリーホック",
@@ -335,7 +410,10 @@
     "stadium_latitude": 36.3437,
     "stadium_longitude": 140.413,
     "description": "",
-    "prefecture_id": 8
+    "prefecture_id": 8,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 10152
   },
   {
     "name": "RB大宮アルディージャ",
@@ -348,7 +426,10 @@
     "stadium_latitude": 35.9152,
     "stadium_longitude": 139.6239,
     "description": "",
-    "prefecture_id": 11
+    "prefecture_id": 11,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15491
   },
   {
     "name": "ジェフユナイテッド千葉",
@@ -361,7 +442,10 @@
     "stadium_latitude": 35.5855,
     "stadium_longitude": 140.1234,
     "description": "",
-    "prefecture_id": 12
+    "prefecture_id": 12,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 19470
   },
   {
     "name": "ヴァンフォーレ甲府",
@@ -374,7 +458,10 @@
     "stadium_latitude": 35.6149,
     "stadium_longitude": 138.5688,
     "description": "",
-    "prefecture_id": 19
+    "prefecture_id": 19,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15853
   },
   {
     "name": "カターレ富山",
@@ -387,7 +474,10 @@
     "stadium_latitude": 36.6965,
     "stadium_longitude": 137.241,
     "description": "",
-    "prefecture_id": 16
+    "prefecture_id": 16,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 18588
   },
   {
     "name": "ジュビロ磐田",
@@ -400,7 +490,10 @@
     "stadium_latitude": 34.7415,
     "stadium_longitude": 137.8511,
     "description": "",
-    "prefecture_id": 22
+    "prefecture_id": 22,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15165
   },
   {
     "name": "藤枝MYFC",
@@ -413,7 +506,10 @@
     "stadium_latitude": 34.8757,
     "stadium_longitude": 138.2316,
     "description": "",
-    "prefecture_id": 22
+    "prefecture_id": 22,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 10057
   },
   {
     "name": "レノファ山口FC",
@@ -426,7 +522,10 @@
     "stadium_latitude": 34.1686,
     "stadium_longitude": 131.4413,
     "description": "",
-    "prefecture_id": 35
+    "prefecture_id": 35,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15115
   },
   {
     "name": "徳島ヴォルティス",
@@ -439,7 +538,10 @@
     "stadium_latitude": 34.1697,
     "stadium_longitude": 134.5855,
     "description": "",
-    "prefecture_id": 36
+    "prefecture_id": 36,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 17924
   },
   {
     "name": "愛媛FC",
@@ -452,7 +554,10 @@
     "stadium_latitude": 33.839,
     "stadium_longitude": 132.7653,
     "description": "",
-    "prefecture_id": 38
+    "prefecture_id": 38,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 20919
   },
   {
     "name": "FC今治",
@@ -465,7 +570,10 @@
     "stadium_latitude": 34.067,
     "stadium_longitude": 132.9971,
     "description": "",
-    "prefecture_id": 38
+    "prefecture_id": 38,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5316
   },
   {
     "name": "サガン鳥栖",
@@ -478,7 +586,10 @@
     "stadium_latitude": 33.3703,
     "stadium_longitude": 130.5168,
     "description": "",
-    "prefecture_id": 41
+    "prefecture_id": 41,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 20219
   },
   {
     "name": "V・ファーレン長崎",
@@ -491,7 +602,10 @@
     "stadium_latitude": 32.8212,
     "stadium_longitude": 130.0433,
     "description": "",
-    "prefecture_id": 42
+    "prefecture_id": 42,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 20027
   },
   {
     "name": "ロアッソ熊本",
@@ -504,7 +618,10 @@
     "stadium_latitude": 32.8693,
     "stadium_longitude": 130.76,
     "description": "",
-    "prefecture_id": 43
+    "prefecture_id": 43,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 30275
   },
   {
     "name": "大分トリニータ",
@@ -517,7 +634,10 @@
     "stadium_latitude": 33.2043,
     "stadium_longitude": 131.6586,
     "description": "",
-    "prefecture_id": 44
+    "prefecture_id": 44,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 31997
   },
   {
     "name": "ヴァンラーレ八戸",
@@ -530,7 +650,10 @@
     "stadium_latitude": 40.5829,
     "stadium_longitude": 141.4826,
     "description": "",
-    "prefecture_id": 2
+    "prefecture_id": 2,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5124
   },
   {
     "name": "福島ユナイテッドFC",
@@ -543,7 +666,10 @@
     "stadium_latitude": 37.801,
     "stadium_longitude": 140.4699,
     "description": "",
-    "prefecture_id": 7
+    "prefecture_id": 7,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5710
   },
   {
     "name": "栃木SC",
@@ -556,7 +682,10 @@
     "stadium_latitude": 36.5658,
     "stadium_longitude": 139.8989,
     "description": "",
-    "prefecture_id": 9
+    "prefecture_id": 9,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 24670
   },
   {
     "name": "栃木シティ",
@@ -569,7 +698,10 @@
     "stadium_latitude": 36.3998,
     "stadium_longitude": 139.7177,
     "description": "",
-    "prefecture_id": 9
+    "prefecture_id": 9,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5128
   },
   {
     "name": "ザスパ群馬",
@@ -582,7 +714,10 @@
     "stadium_latitude": 36.4094,
     "stadium_longitude": 139.0438,
     "description": "",
-    "prefecture_id": 10
+    "prefecture_id": 10,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15190
   },
   {
     "name": "SC相模原",
@@ -595,7 +730,10 @@
     "stadium_latitude": 35.5403,
     "stadium_longitude": 139.3597,
     "description": "",
-    "prefecture_id": 14
+    "prefecture_id": 14,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 6259
   },
   {
     "name": "松本山雅FC",
@@ -608,7 +746,10 @@
     "stadium_latitude": 36.2032,
     "stadium_longitude": 137.9076,
     "description": "",
-    "prefecture_id": 20
+    "prefecture_id": 20,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 20336
   },
   {
     "name": "AC長野パルセイロ",
@@ -621,7 +762,10 @@
     "stadium_latitude": 36.6348,
     "stadium_longitude": 138.1641,
     "description": "",
-    "prefecture_id": 20
+    "prefecture_id": 20,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15515
   },
   {
     "name": "ツエーゲン金沢",
@@ -634,7 +778,10 @@
     "stadium_latitude": 36.5818,
     "stadium_longitude": 136.6528,
     "description": "",
-    "prefecture_id": 17
+    "prefecture_id": 17,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 10728
   },
   {
     "name": "アスルクラロ沼津",
@@ -647,7 +794,10 @@
     "stadium_latitude": 35.1475,
     "stadium_longitude": 138.8712,
     "description": "",
-    "prefecture_id": 22
+    "prefecture_id": 22,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5110
   },
   {
     "name": "FC岐阜",
@@ -660,7 +810,10 @@
     "stadium_latitude": 35.4429,
     "stadium_longitude": 136.7562,
     "description": "",
-    "prefecture_id": 21
+    "prefecture_id": 21,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 16310
   },
   {
     "name": "FC大阪",
@@ -673,7 +826,10 @@
     "stadium_latitude": 34.661,
     "stadium_longitude": 135.6014,
     "description": "",
-    "prefecture_id": 27
+    "prefecture_id": 27,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 26443
   },
   {
     "name": "奈良クラブ",
@@ -686,7 +842,10 @@
     "stadium_latitude": 34.6733,
     "stadium_longitude": 135.8409,
     "description": "",
-    "prefecture_id": 29
+    "prefecture_id": 29,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5369
   },
   {
     "name": "ガイナーレ鳥取",
@@ -699,7 +858,10 @@
     "stadium_latitude": 35.5132,
     "stadium_longitude": 134.1919,
     "description": "",
-    "prefecture_id": 31
+    "prefecture_id": 31,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 11999
   },
   {
     "name": "カマタマーレ讃岐",
@@ -712,7 +874,10 @@
     "stadium_latitude": 34.2893,
     "stadium_longitude": 133.8092,
     "description": "",
-    "prefecture_id": 37
+    "prefecture_id": 37,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 22338
   },
   {
     "name": "高知ユナイテッドSC",
@@ -725,7 +890,10 @@
     "stadium_latitude": 33.5029,
     "stadium_longitude": 133.5101,
     "description": "",
-    "prefecture_id": 39
+    "prefecture_id": 39,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 16010
   },
   {
     "name": "ギラヴァンツ北九州",
@@ -738,7 +906,10 @@
     "stadium_latitude": 33.8761,
     "stadium_longitude": 130.8804,
     "description": "",
-    "prefecture_id": 40
+    "prefecture_id": 40,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 15300
   },
   {
     "name": "テゲバジャーロ宮崎",
@@ -751,7 +922,10 @@
     "stadium_latitude": 32.0731,
     "stadium_longitude": 131.4673,
     "description": "",
-    "prefecture_id": 45
+    "prefecture_id": 45,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 5375
   },
   {
     "name": "鹿児島ユナイテッドFC",
@@ -760,11 +934,14 @@
     "image_url": "",
     "team_color": "#2E3B67",
     "website_url": "https://kufc.co.jp/",
-    "main_stadium_name": "白波スタジアム（県立鴨池陸上競技場）",
+    "main_stadium_name": "白波スタジアム",
     "stadium_latitude": 31.5542,
     "stadium_longitude": 130.5467,
     "description": "",
-    "prefecture_id": 46
+    "prefecture_id": 46,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 12606
   },
   {
     "name": "FC琉球",
@@ -777,6 +954,9 @@
     "stadium_latitude": 26.3196,
     "stadium_longitude": 127.8061,
     "description": "",
-    "prefecture_id": 47
+    "prefecture_id": 47,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "stadium_capacity": 10189
   }
 ]

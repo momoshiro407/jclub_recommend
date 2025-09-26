@@ -10,3 +10,5 @@ pandas
 fasttext
 jupyter
 requests
+instaloader
+google-api-python-client

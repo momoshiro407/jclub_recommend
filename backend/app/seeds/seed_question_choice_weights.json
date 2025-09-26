@@ -150,10 +150,20 @@
     {
         "question_order": 15,
         "choice_order": 1,
-        "weights": [{ "feature": "stadium_event_richness", "weight": 1.0 }]
+        "weights": [{ "feature": "attendance_average", "weight": 1.0 }]
     },
     {
         "question_order": 15,
+        "choice_order": 3,
+        "weights": [{ "feature": "attendance_average", "weight": -0.5 }]
+    },
+    {
+        "question_order": 16,
+        "choice_order": 1,
+        "weights": [{ "feature": "stadium_event_richness", "weight": 1.0 }]
+    },
+    {
+        "question_order": 16,
         "choice_order": 3,
         "weights": [{ "feature": "stadium_event_richness", "weight": -0.5 }]
     }

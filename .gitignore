@@ -32,3 +32,6 @@ htmlcov/
 *.njsproj
 *.sln
 *.sw?
+
+# 開発資料
+materials/
