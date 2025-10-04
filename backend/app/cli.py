@@ -1,5 +1,11 @@
+import click
+
+
 def register_commands(app):
     @app.cli.command('seed-clubs')
+    # --------------------------------------------------------
+    # seedデータ投入・更新コマンド
+    # --------------------------------------------------------
     def seed_clubs():
         """ J1〜J3全クラブをDBに投入
         """
@@ -36,3 +42,35 @@ def register_commands(app):
         from .seeds.load import update_club_features
         with app.app_context():
             update_club_features()
+
+    # --------------------------------------------------------
+    # 特徴量集計用コマンド
+    # --------------------------------------------------------
+    @app.cli.command('collect-popularity')
+    @click.argument('division')
+    def exec_collect_popularity_score(division):
+        from .scripts.features.popularity_score.collect_popularity_score import collect_popularity_score
+        with app.app_context():
+            collect_popularity_score(division=division)
+
+    @app.cli.command('collect-attendance')
+    @click.argument('year')
+    def exec_collect_home_attendance(year):
+        from .scripts.features.home_attendance.collect_home_attendance import collect_home_attendance
+        with app.app_context():
+            collect_home_attendance(year=year)
+
+    # --------------------------------------------------------
+    # 特徴量DB登録用コマンド
+    # --------------------------------------------------------
+    @app.cli.command('update-popularity')
+    def exec_update_popularity_score():
+        from .scripts.features.popularity_score.update_popularity_score import update_popularity_score
+        with app.app_context():
+            update_popularity_score()
+
+    @app.cli.command('update-attendance')
+    def exec_update_home_attendance():
+        from .scripts.features.home_attendance.update_home_attendance import update_home_attendance
+        with app.app_context():
+            update_home_attendance()

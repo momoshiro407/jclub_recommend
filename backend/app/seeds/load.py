@@ -28,6 +28,10 @@ def run_seed_clubs():
         stadium_longitude = c.get('stadium_longitude', 0)
         description = c.get('description', '').strip()
         prefcture_id = int(c.get('prefecture_id', 1))
+        supporter_heat = c.get('supporter_heat', 0)
+        rivalry_intensity_preference = c.get(
+            'rivalry_intensity_preference', 0)
+        stadium_capacity = c.get('stadium_capacity', 0)
 
         # nameをユニークキーとしてupsert
         club = Club.query.filter_by(name=name).first()
@@ -36,7 +40,8 @@ def run_seed_clubs():
                 Club(name=name, division=division, location=location, image_url=image_url,
                      team_color=team_color, website_url=website_url, main_stadium=main_stadium_name,
                      stadium_latitude=stadium_latitude, stadium_longitude=stadium_longitude,
-                     description=description, prefecture_id=prefcture_id))
+                     description=description, prefecture_id=prefcture_id, supporter_heat=supporter_heat,
+                     rivalry_intensity_preference=rivalry_intensity_preference, stadium_capacity=stadium_capacity))
         else:
             club.division = division
             club.location = location
@@ -48,6 +53,9 @@ def run_seed_clubs():
             club.stadium_longitude = stadium_longitude
             club.description = description
             club.prefecture_id = prefcture_id
+            club.supporter_heat = supporter_heat
+            club.rivalry_intensity_preference = rivalry_intensity_preference
+            club.stadium_capacity = stadium_capacity
 
     db.session.commit()
     print(f'Seed completed: clubs inserted')

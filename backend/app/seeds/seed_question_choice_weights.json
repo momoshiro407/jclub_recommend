@@ -150,12 +150,12 @@
     {
         "question_order": 15,
         "choice_order": 1,
-        "weights": [{ "feature": "attendance_average", "weight": 1.0 }]
+        "weights": [{ "feature": "home_attendance", "weight": 1.0 }]
     },
     {
         "question_order": 15,
         "choice_order": 3,
-        "weights": [{ "feature": "attendance_average", "weight": -0.5 }]
+        "weights": [{ "feature": "home_attendance", "weight": -0.5 }]
     },
     {
         "question_order": 16,

@@ -12,3 +12,4 @@ jupyter
 requests
 instaloader
 google-api-python-client
+apify-client

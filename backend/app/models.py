@@ -31,7 +31,7 @@ class Club(db.Model):
             - stadium_access: スタジアムのアクセスの良さ
             - stadium_capacity: スタジアムの収容人数
             - stadium_event_richness: スタジアム内イベントの多さ
-            - attendance_average: 平均観客動員数
+            - home_attendance: ホーム平均観客動員数（中央値）
     """
     __tablename__ = 'clubs'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -80,8 +80,8 @@ class Club(db.Model):
         db.Integer, nullable=False, default=15000, server_default="15000")
     stadium_event_richness = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")
-    attendance_average = db.Column(
-        db.Float, nullable=False, default=10000, server_default="10000")
+    home_attendance = db.Column(
+        db.Integer, nullable=False, default=10000, server_default="10000")
 
 
 class Question(db.Model):

@@ -1,0 +1,422 @@
+[
+  {
+    "鹿島アントラーズ": {
+      "instagram_user_name": "kashima.antlers",
+      "youtube_channel_id": "UCRvLH_QUTVaJUqxxFNsnD7g",
+      "twitter_user_name": "atlrs_official"
+    }
+  },
+  {
+    "浦和レッズ": {
+      "instagram_user_name": "urawaredsofficial",
+      "youtube_channel_id": "UCNp5lGLOVMzK5FwL-Sj_E-w",
+      "twitter_user_name": "REDSOFFICIAL"
+    }
+  },
+  {
+    "柏レイソル": {
+      "instagram_user_name": "kashiwareysol_official",
+      "youtube_channel_id": "UCS30GWOZZGV7hibeIXdHv9Q",
+      "twitter_user_name": "REYSOL_Official"
+    }
+  },
+  {
+    "FC東京": {
+      "instagram_user_name": "fctokyoofficial",
+      "youtube_channel_id": "UCLJKr657ObLq2tK2exhQJ_A",
+      "twitter_user_name": "fctokyoofficial"
+    }
+  },
+  {
+    "東京ヴェルディ": {
+      "instagram_user_name": "tokyo_verdy",
+      "youtube_channel_id": "UCMQNvtfE_uj64orMYYp82Kw",
+      "twitter_user_name": "TokyoVerdySTAFF"
+    }
+  },
+  {
+    "FC町田ゼルビア": {
+      "instagram_user_name": "fcmachidazelvia",
+      "youtube_channel_id": "UCjz0PnL8ZiX49IwErg2alJw",
+      "twitter_user_name": "FcMachidaZelvia"
+    }
+  },
+  {
+    "川崎フロンターレ": {
+      "instagram_user_name": "kawasaki_frontale",
+      "youtube_channel_id": "UClIA2_cErgsKq7pfG2jaX2g",
+      "twitter_user_name": "frontale_staff"
+    }
+  },
+  {
+    "横浜F・マリノス": {
+      "instagram_user_name": "yokohamaf.marinos",
+      "youtube_channel_id": "UCzJZ_UhiUWI2Q41pUYTF3YQ",
+      "twitter_user_name": "prompt_fmarinos"
+    }
+  },
+  {
+    "横浜FC": {
+      "instagram_user_name": "yokohamafc_official",
+      "youtube_channel_id": "UCUiRzm2iBaQM8k_TccZDq-w",
+      "twitter_user_name": "yokohama_fc"
+    }
+  },
+  {
+    "湘南ベルマーレ": {
+      "instagram_user_name": "shonan_bellmare",
+      "youtube_channel_id": "UCc3FnR9YVLyd-c4_uWpzgtA",
+      "twitter_user_name": "bellmare_staff"
+    }
+  },
+  {
+    "アルビレックス新潟": {
+      "instagram_user_name": "albirex_niigata_official",
+      "youtube_channel_id": "UCJlHLPRfkx4zglW6RRHV8yQ",
+      "twitter_user_name": "albirex_pr"
+    }
+  },
+  {
+    "清水エスパルス": {
+      "instagram_user_name": "spulse_official",
+      "youtube_channel_id": "UC4xcTo5-5i8cc2beXMbYgtw",
+      "twitter_user_name": "spulse_official"
+    }
+  },
+  {
+    "名古屋グランパス": {
+      "instagram_user_name": "nagoyagrampus",
+      "youtube_channel_id": "UC8M-PkL6rzZfzHi8dURgWog",
+      "twitter_user_name": "nge_official"
+    }
+  },
+  {
+    "京都サンガF.C.": {
+      "instagram_user_name": "kyotosanga_official",
+      "youtube_channel_id": "UCThC5l5XIVUEljKnCTMgI8A",
+      "twitter_user_name": "sangafc"
+    }
+  },
+  {
+    "ガンバ大阪": {
+      "instagram_user_name": "gambaosaka_official",
+      "youtube_channel_id": "UCftKGb8v-BTXBNRUHMeHpBw",
+      "twitter_user_name": "GAMBA_OFFICIAL"
+    }
+  },
+  {
+    "セレッソ大阪": {
+      "instagram_user_name": "cerezo_osaka",
+      "youtube_channel_id": "UCCvy1DY5OP7D4RWsqczIxbA",
+      "twitter_user_name": "crz_official"
+    }
+  },
+  {
+    "ヴィッセル神戸": {
+      "instagram_user_name": "visselkobe",
+      "youtube_channel_id": "UCJqntep7t6aBm99fXDjmECQ",
+      "twitter_user_name": "visselkobe"
+    }
+  },
+  {
+    "ファジアーノ岡山": {
+      "instagram_user_name": "fagianookayama",
+      "youtube_channel_id": "UCo2Mdvrqc4nS2sjh0Lg_W1g",
+      "twitter_user_name": "fagiano_koho"
+    }
+  },
+  {
+    "サンフレッチェ広島": {
+      "instagram_user_name": "sanfrecce.official",
+      "youtube_channel_id": "UC7JNMwOkj_zHjbXiXlDaAVA",
+      "twitter_user_name": "sanfrecce_SFC"
+    }
+  },
+  {
+    "アビスパ福岡": {
+      "instagram_user_name": "avispaf",
+      "youtube_channel_id": "UCx9WwWANuxskEfS53IkkI1w",
+      "twitter_user_name": "AvispaF"
+    }
+  },
+  {
+    "北海道コンサドーレ札幌": {
+      "instagram_user_name": "hokkaido_consadole_sapporo",
+      "youtube_channel_id": "UCKM1JNWlqYEkqkoJX8CMnVA",
+      "twitter_user_name": "consaofficial"
+    }
+  },
+  {
+    "ベガルタ仙台": {
+      "instagram_user_name": "vegaltasendai",
+      "youtube_channel_id": "UC7QdJ-ssV4jfLKbBNo-LRKg",
+      "twitter_user_name": "vega_official_"
+    }
+  },
+  {
+    "ブラウブリッツ秋田": {
+      "instagram_user_name": "blaublitz_akita",
+      "youtube_channel_id": "UCPJbqxLKhqNqib_iehLEXOw",
+      "twitter_user_name": "blaublitz_akita"
+    }
+  },
+  {
+    "モンテディオ山形": {
+      "instagram_user_name": "montediogram",
+      "youtube_channel_id": "UCK5gtUzkCdStrAdy13R4DjA",
+      "twitter_user_name": "monte_prstaff"
+    }
+  },
+  {
+    "いわきFC": {
+      "instagram_user_name": "iwakifc",
+      "youtube_channel_id": "UCR5Npozmcj4TmZN32wxRaYA",
+      "twitter_user_name": "IwakiFcOfficial"
+    }
+  },
+  {
+    "水戸ホーリーホック": {
+      "instagram_user_name": "mito.hollyhock.official",
+      "youtube_channel_id": "UCT3eNEwCL6lpGlCfaCXJSkQ",
+      "twitter_user_name": "hollyhock_staff"
+    }
+  },
+  {
+    "RB大宮アルディージャ": {
+      "instagram_user_name": "omiya.ardija",
+      "youtube_channel_id": "UCG92DaK_4WQMn07gG5mhaxA",
+      "twitter_user_name": "Ardija_Official"
+    }
+  },
+  {
+    "ジェフユナイテッド千葉": {
+      "instagram_user_name": "jefunited_chiba_official",
+      "youtube_channel_id": "UCjcO4AvTXjPBNXXe4Deoa6Q",
+      "twitter_user_name": "jef_united"
+    }
+  },
+  {
+    "ヴァンフォーレ甲府": {
+      "instagram_user_name": "vfk_official",
+      "youtube_channel_id": "UCtdA3-T8-1wLltOxVGuXyDg",
+      "twitter_user_name": "vfk_official"
+    }
+  },
+  {
+    "カターレ富山": {
+      "instagram_user_name": "kataller_toyama",
+      "youtube_channel_id": "UCaMqpW-kFHIUnbpLIAgoruA",
+      "twitter_user_name": "katallertoyama"
+    }
+  },
+  {
+    "ジュビロ磐田": {
+      "instagram_user_name": "jubiloiwata.official",
+      "youtube_channel_id": "UC4K27x9_tB-QAquqouXxQSA",
+      "twitter_user_name": "Jubiloiwata_YFC"
+    }
+  },
+  {
+    "藤枝MYFC": {
+      "instagram_user_name": "fujiedamyfc_official",
+      "youtube_channel_id": "UCIcNQVpLjcR0HRlfo1pvoYA",
+      "twitter_user_name": "fujiedamyfc_pr"
+    }
+  },
+  {
+    "レノファ山口FC": {
+      "instagram_user_name": "renofa_yamaguchi",
+      "youtube_channel_id": "UC5cvby7EjV9UbODhetxmQIw",
+      "twitter_user_name": "renofayamaguchi"
+    }
+  },
+  {
+    "徳島ヴォルティス": {
+      "instagram_user_name": "tokushima_vortis",
+      "youtube_channel_id": "UCHXbSt9WZHmmRAV00R5YL7w",
+      "twitter_user_name": "vortis_pr"
+    }
+  },
+  {
+    "愛媛FC": {
+      "instagram_user_name": "ehimefc12",
+      "youtube_channel_id": "UCyGIiTla0FUD0swcPXw64lA",
+      "twitter_user_name": "ehime_fc"
+    }
+  },
+  {
+    "FC今治": {
+      "instagram_user_name": "fcimabari_official",
+      "youtube_channel_id": "UCQ6W3G4m_OvDU1bP9_W4BMQ",
+      "twitter_user_name": "FCimabari"
+    }
+  },
+  {
+    "サガン鳥栖": {
+      "instagram_user_name": "sagantosu_official",
+      "youtube_channel_id": "UCRdlR69tN8FxiR94P6kt4ZA",
+      "twitter_user_name": "saganofficial17"
+    }
+  },
+  {
+    "V・ファーレン長崎": {
+      "instagram_user_name": "vvarennagasaki_official",
+      "youtube_channel_id": "UCZHloMdi3VLyFgfh53EW7mQ",
+      "twitter_user_name": "v_varenstaff"
+    }
+  },
+  {
+    "ロアッソ熊本": {
+      "instagram_user_name": "roassokumamoto_official",
+      "youtube_channel_id": "UCq3YBwctnz5IGUty-VNlo9g",
+      "twitter_user_name": "roassoofficial"
+    }
+  },
+  {
+    "大分トリニータ": {
+      "instagram_user_name": "trinita_official",
+      "youtube_channel_id": "UCOnsF7ZnqMMC4F_tX85Vt9A",
+      "twitter_user_name": "TRINITAofficial"
+    }
+  },
+  {
+    "ヴァンラーレ八戸": {
+      "instagram_user_name": "vanraure8nohe",
+      "youtube_channel_id": "UC5VBh5HCi3OMvwkuT8OUctw",
+      "twitter_user_name": "vanraure"
+    }
+  },
+  {
+    "福島ユナイテッドFC": {
+      "instagram_user_name": "fukushimaunited_fc",
+      "youtube_channel_id": "UCvGn9vzK4pTe1WhoMHp38sQ",
+      "twitter_user_name": "fufc_staff"
+    }
+  },
+  {
+    "栃木SC": {
+      "instagram_user_name": "tochigisc_official",
+      "youtube_channel_id": "UCi_E0TbkflceQRZZJBFBilg",
+      "twitter_user_name": "tochigisc"
+    }
+  },
+  {
+    "栃木シティ": {
+      "instagram_user_name": "tochigi_city_official",
+      "youtube_channel_id": "UCD1KBP_y6brjx3ox8kuOrHw",
+      "twitter_user_name": "tochigi_city_"
+    }
+  },
+  {
+    "ザスパ群馬": {
+      "instagram_user_name": "thespakusatsugunma_official",
+      "youtube_channel_id": "UCbQCyvX63nCW6BF6lCc6qrg",
+      "twitter_user_name": "OfficialThespa"
+    }
+  },
+  {
+    "SC相模原": {
+      "instagram_user_name": "s.c.sagamihara_players",
+      "youtube_channel_id": "UCzccKnYGn4dsqUJwgV8jbEw",
+      "twitter_user_name": "sc_sagamihara"
+    }
+  },
+  {
+    "松本山雅FC": {
+      "instagram_user_name": "matsumoto.yamagafc",
+      "youtube_channel_id": "UCgFR7a0OP5EJ65h4tKrgXcw",
+      "twitter_user_name": "yamagafc"
+    }
+  },
+  {
+    "AC長野パルセイロ": {
+      "instagram_user_name": "acnaganoparceiro.official",
+      "youtube_channel_id": "UCmMIqtzgOrypDCIGDZYMb2A",
+      "twitter_user_name": "NAGANO_PARCEIRO"
+    }
+  },
+  {
+    "ツエーゲン金沢": {
+      "instagram_user_name": "zweigen_official",
+      "youtube_channel_id": "UCsLErJ5gm8wLd6yu4t_B_2g",
+      "twitter_user_name": "zweigen_staff"
+    }
+  },
+  {
+    "アスルクラロ沼津": {
+      "instagram_user_name": "azulclaronumazu_official",
+      "youtube_channel_id": "UCSpF0gq_RHeatSwO2Sxr8cQ",
+      "twitter_user_name": "azulclaro1990"
+    }
+  },
+  {
+    "FC岐阜": {
+      "instagram_user_name": "fcgifu",
+      "youtube_channel_id": "UCPbYN5I3GyP-d7meDbm15lg",
+      "twitter_user_name": "fcgifudream"
+    }
+  },
+  {
+    "FC大阪": {
+      "instagram_user_name": "fcosaka_official",
+      "youtube_channel_id": "UCDyC7fLg_-EMcoNtRmbNtRg",
+      "twitter_user_name": "FCosakaOfficial"
+    }
+  },
+  {
+    "奈良クラブ": {
+      "instagram_user_name": "naraclub_official",
+      "youtube_channel_id": "UCXFFY2nfmRxZZm3EJvj6l8w",
+      "twitter_user_name": "naraclub_info"
+    }
+  },
+  {
+    "ガイナーレ鳥取": {
+      "instagram_user_name": "gainare_tottori",
+      "youtube_channel_id": "UC6jtbe9Tm4Mlub6t3exAxRQ",
+      "twitter_user_name": "gainareofficial"
+    }
+  },
+  {
+    "カマタマーレ讃岐": {
+      "instagram_user_name": "kamatama_kouhou",
+      "youtube_channel_id": "UCgwxbVsoklXv5yKUwyQkJcw",
+      "twitter_user_name": "kamatama_kouhou"
+    }
+  },
+  {
+    "高知ユナイテッドSC": {
+      "instagram_user_name": "kochiunitedsc",
+      "youtube_channel_id": "UCU_-8VXwpkHkqkPG4R2t5aQ",
+      "twitter_user_name": "kochi_United"
+    }
+  },
+  {
+    "ギラヴァンツ北九州": {
+      "instagram_user_name": "giravanz_kitakyushu",
+      "youtube_channel_id": "UCajMs4zt2oQeJvfDKdVk_iQ",
+      "twitter_user_name": "Giravanz_staff"
+    }
+  },
+  {
+    "テゲバジャーロ宮崎": {
+      "instagram_user_name": "tegevajaro_miyazaki_official",
+      "youtube_channel_id": "UC7o37HE7TWuF36GR7ADM-Xg",
+      "twitter_user_name": "55tegevajaro"
+    }
+  },
+  {
+    "鹿児島ユナイテッドFC": {
+      "instagram_user_name": "kagoshimaunitedfc",
+      "youtube_channel_id": "UCu-OJwTScMutClVRNEcpbOw",
+      "twitter_user_name": "kagoshimaufc"
+    }
+  },
+  {
+    "FC琉球": {
+      "instagram_user_name": "fcryukyu",
+      "youtube_channel_id": "UC2RWP331O18b80nU8vx1IzA",
+      "twitter_user_name": "fcr_info"
+    }
+  }
+]
