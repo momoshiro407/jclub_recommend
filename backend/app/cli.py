@@ -74,3 +74,9 @@ def register_commands(app):
         from .scripts.features.home_attendance.update_home_attendance import update_home_attendance
         with app.app_context():
             update_home_attendance()
+
+    @app.cli.command('update-availability')
+    def exec_update_ticket_availability():
+        from .scripts.features.ticket_availability.update_ticket_availability import update_ticket_availability
+        with app.app_context():
+            update_ticket_availability()
