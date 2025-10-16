@@ -60,6 +60,19 @@ def register_commands(app):
         with app.app_context():
             collect_home_attendance(year=year)
 
+    @app.cli.command('collect-strength-long')
+    @click.argument('year')
+    def exec_collect_strength_long_term(year):
+        from .scripts.features.strength.collect_strength_long_term import collect_strength_long_term
+        with app.app_context():
+            collect_strength_long_term(current_year=year)
+
+    @app.cli.command('collect-strength-short')
+    def exec_collect_strength_short_term():
+        from .scripts.features.strength.collect_strength_short_term import collect_strength_short_term
+        with app.app_context():
+            collect_strength_short_term()
+
     # --------------------------------------------------------
     # 特徴量DB登録用コマンド
     # --------------------------------------------------------
@@ -80,3 +93,10 @@ def register_commands(app):
         from .scripts.features.ticket_availability.update_ticket_availability import update_ticket_availability
         with app.app_context():
             update_ticket_availability()
+
+    @app.cli.command('update-strength')
+    @click.argument('term')
+    def exec_update_strength(term):
+        from .scripts.features.strength.update_strength import update_strength
+        with app.app_context():
+            update_strength(term=term)

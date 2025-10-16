@@ -48,7 +48,7 @@
     "stadium_capacity": 15109
   },
   {
-    "name": "FC東京",
+    "name": "ＦＣ東京",
     "division": 1,
     "location": "東京都",
     "image_url": "",
@@ -80,7 +80,7 @@
     "stadium_capacity": 47851
   },
   {
-    "name": "FC町田ゼルビア",
+    "name": "ＦＣ町田ゼルビア",
     "division": 1,
     "location": "東京都町田市",
     "image_url": "",
@@ -112,7 +112,7 @@
     "stadium_capacity": 26827
   },
   {
-    "name": "横浜F・マリノス",
+    "name": "横浜Ｆ・マリノス",
     "division": 1,
     "location": "神奈川県横浜市",
     "image_url": "",
@@ -128,7 +128,7 @@
     "stadium_capacity": 71624
   },
   {
-    "name": "横浜FC",
+    "name": "横浜ＦＣ",
     "division": 1,
     "location": "神奈川県横浜市",
     "image_url": "",
@@ -384,7 +384,7 @@
     "stadium_capacity": 20638
   },
   {
-    "name": "いわきFC",
+    "name": "いわきＦＣ",
     "division": 2,
     "location": "福島県いわき市",
     "image_url": "",
@@ -416,7 +416,7 @@
     "stadium_capacity": 10152
   },
   {
-    "name": "RB大宮アルディージャ",
+    "name": "ＲＢ大宮アルディージャ",
     "division": 2,
     "location": "埼玉県さいたま市",
     "image_url": "",
@@ -496,7 +496,7 @@
     "stadium_capacity": 15165
   },
   {
-    "name": "藤枝MYFC",
+    "name": "藤枝ＭＹＦＣ",
     "division": 2,
     "location": "静岡県藤枝市",
     "image_url": "",
@@ -512,7 +512,7 @@
     "stadium_capacity": 10057
   },
   {
-    "name": "レノファ山口FC",
+    "name": "レノファ山口ＦＣ",
     "division": 2,
     "location": "山口県山口市",
     "image_url": "",
@@ -544,7 +544,7 @@
     "stadium_capacity": 17924
   },
   {
-    "name": "愛媛FC",
+    "name": "愛媛ＦＣ",
     "division": 2,
     "location": "愛媛県松山市",
     "image_url": "",
@@ -560,7 +560,7 @@
     "stadium_capacity": 20919
   },
   {
-    "name": "FC今治",
+    "name": "ＦＣ今治",
     "division": 2,
     "location": "愛媛県今治市",
     "image_url": "",
@@ -592,7 +592,7 @@
     "stadium_capacity": 20219
   },
   {
-    "name": "V・ファーレン長崎",
+    "name": "Ｖ・ファーレン長崎",
     "division": 2,
     "location": "長崎県長崎市",
     "image_url": "",
@@ -656,7 +656,7 @@
     "stadium_capacity": 5124
   },
   {
-    "name": "福島ユナイテッドFC",
+    "name": "福島ユナイテッドＦＣ",
     "division": 3,
     "location": "福島県福島市",
     "image_url": "",
@@ -672,7 +672,7 @@
     "stadium_capacity": 5710
   },
   {
-    "name": "栃木SC",
+    "name": "栃木ＳＣ",
     "division": 3,
     "location": "栃木県宇都宮市",
     "image_url": "",
@@ -720,7 +720,7 @@
     "stadium_capacity": 15190
   },
   {
-    "name": "SC相模原",
+    "name": "ＳＣ相模原",
     "division": 3,
     "location": "神奈川県相模原市",
     "image_url": "",
@@ -736,7 +736,7 @@
     "stadium_capacity": 6259
   },
   {
-    "name": "松本山雅FC",
+    "name": "松本山雅ＦＣ",
     "division": 3,
     "location": "長野県松本市",
     "image_url": "",
@@ -752,7 +752,7 @@
     "stadium_capacity": 20336
   },
   {
-    "name": "AC長野パルセイロ",
+    "name": "ＡＣ長野パルセイロ",
     "division": 3,
     "location": "長野県長野市",
     "image_url": "",
@@ -800,7 +800,7 @@
     "stadium_capacity": 5110
   },
   {
-    "name": "FC岐阜",
+    "name": "ＦＣ岐阜",
     "division": 3,
     "location": "岐阜県岐阜市",
     "image_url": "",
@@ -816,7 +816,7 @@
     "stadium_capacity": 16310
   },
   {
-    "name": "FC大阪",
+    "name": "ＦＣ大阪",
     "division": 3,
     "location": "大阪府東大阪市",
     "image_url": "",
@@ -880,7 +880,7 @@
     "stadium_capacity": 22338
   },
   {
-    "name": "高知ユナイテッドSC",
+    "name": "高知ユナイテッドＳＣ",
     "division": 3,
     "location": "高知県高知市",
     "image_url": "",
@@ -928,7 +928,7 @@
     "stadium_capacity": 5375
   },
   {
-    "name": "鹿児島ユナイテッドFC",
+    "name": "鹿児島ユナイテッドＦＣ",
     "division": 3,
     "location": "鹿児島県鹿児島市",
     "image_url": "",
@@ -944,7 +944,7 @@
     "stadium_capacity": 12606
   },
   {
-    "name": "FC琉球",
+    "name": "ＦＣ琉球",
     "division": 3,
     "location": "沖縄県沖縄市",
     "image_url": "",

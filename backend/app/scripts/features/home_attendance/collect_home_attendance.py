@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 # 環境変数の読み込み
 load_dotenv(dotenv_path=Path(current_app.root_path) / '.env')
 J_DATA_SITE_URL = os.getenv('J_DATA_SITE_URL')
-ATTENDANCE_ROW = 6  # クラブ別入場者数の列番号
+ATTENDANCE_COL = 6  # クラブ別入場者数の列番号
 
 
 def scrape_home_attendance(team_id, division, year):
@@ -30,7 +30,7 @@ def scrape_home_attendance(team_id, division, year):
     soup = BeautifulSoup(r.text, 'html.parser')
 
     # Data Siteのテーブル構造を想定（class='tbl-data'）
-    table = soup.find('table', {'class': 'attendance-table'})
+    table = soup.find('table', class_='attendance-table')
     if not table:
         return []
 
@@ -41,7 +41,7 @@ def scrape_home_attendance(team_id, division, year):
         if not cols:
             continue
         # 入場者数の列を確認
-        att_str = cols[ATTENDANCE_ROW]
+        att_str = cols[ATTENDANCE_COL]
         if att_str:
             try:
                 att = int(att_str.replace(',', ''))

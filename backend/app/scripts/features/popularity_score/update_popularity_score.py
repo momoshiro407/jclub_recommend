@@ -32,12 +32,11 @@ def update_popularity_score():
             for _, row in df.iterrows():
                 club_name = row['club_name']
                 total = int(row['total'])
-                print(club_name, total)
 
                 query = text("""
                     UPDATE clubs
                     SET popularity_score = :popularity_score
-                    WHERE name = :club_name
+                    WHERE normalize_alnum(name) = normalize_alnum(:club_name)
                 """)
                 conn.execute(
                     query, {

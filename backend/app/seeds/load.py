@@ -38,7 +38,7 @@ def run_seed_clubs():
         if club is None:
             db.session.add(
                 Club(name=name, division=division, location=location, image_url=image_url,
-                     team_color=team_color, website_url=website_url, main_stadium=main_stadium_name,
+                     team_color=team_color, website_url=website_url, main_stadium_name=main_stadium_name,
                      stadium_latitude=stadium_latitude, stadium_longitude=stadium_longitude,
                      description=description, prefecture_id=prefcture_id, supporter_heat=supporter_heat,
                      rivalry_intensity_preference=rivalry_intensity_preference, stadium_capacity=stadium_capacity))

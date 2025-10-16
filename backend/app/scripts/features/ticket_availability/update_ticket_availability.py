@@ -1,7 +1,7 @@
 import os
 from flask import current_app
 from pathlib import Path
-from sqlalchemy import create_engine, MetaData, Table, select, update
+from sqlalchemy import create_engine, MetaData, Table, select, text
 from dotenv import load_dotenv
 
 # 環境変数の読み込み
@@ -50,10 +50,16 @@ def update_ticket_availability():
                 ticket_availability = round(
                     max(0.001, min(1, ticket_availability)), 3)  # 0.001〜1に制限
                 # DB更新
+                query = text("""
+                    UPDATE clubs
+                    SET ticket_availability = :ticket_availability
+                    WHERE normalize_alnum(name) = normalize_alnum(:club_name)
+                """)
                 conn.execute(
-                    update(clubs).where(clubs.c.name == club_name).values(
-                        ticket_availability=ticket_availability)
-                )
+                    query, {
+                        'ticket_availability': ticket_availability,
+                        'club_name': club_name,
+                    })
                 print(f'[J{division}] {club_name}: {ticket_availability:.3f}')
 
     print(f'ticket_availability updated.')

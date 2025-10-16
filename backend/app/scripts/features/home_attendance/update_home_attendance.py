@@ -39,7 +39,7 @@ def update_home_attendance():
                 query = text("""
                     UPDATE clubs
                     SET home_attendance = :home_attendance
-                    WHERE name = :club_name
+                    WHERE normalize_alnum(name) = normalize_alnum(:club_name)
                 """)
                 conn.execute(
                     query, {

@@ -16,7 +16,6 @@ from dotenv import load_dotenv
 
 # 環境変数の読み込み
 load_dotenv(dotenv_path=Path(current_app.root_path) / '.env')
-DATABASE_URL = os.getenv('DATABASE_URL')
 YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY')
 APIFY_TOKEN = os.getenv('APIFY_TOKEN')
 TWITTER_ACTOR = os.getenv('TWITTER_ACTOR')
