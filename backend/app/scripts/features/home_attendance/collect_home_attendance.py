@@ -16,7 +16,7 @@ J_DATA_SITE_URL = os.getenv('J_DATA_SITE_URL')
 ATTENDANCE_COL = 6  # クラブ別入場者数の列番号
 
 
-def scrape_home_attendance(team_id, division, year):
+def fetch_home_attendance(team_id, division, year):
     """指定クラブのホーム試合入場者数リストを返す"""
     params = {
         'competition_year': year,
@@ -73,7 +73,7 @@ def collect_home_attendance(year):
             club_name = club['club_name']
             team_ids = club['team_ids']
 
-            attendances = scrape_home_attendance(team_ids, division, year)
+            attendances = fetch_home_attendance(team_ids, division, year)
             if attendances:
                 # 特徴量として使うのは平均値・中央値のいずれかだが一応両方計算しておく
                 avg_att = int(round(np.mean(attendances)))

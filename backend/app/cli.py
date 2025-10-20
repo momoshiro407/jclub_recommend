@@ -73,6 +73,13 @@ def register_commands(app):
         with app.app_context():
             collect_strength_short_term()
 
+    @app.cli.command('collect-play-style')
+    @click.argument('year')
+    def exec_collect_play_style(year):
+        from .scripts.features.play_style.collect_play_style import collect_play_style
+        with app.app_context():
+            collect_play_style(year=year)
+
     # --------------------------------------------------------
     # 特徴量DB登録用コマンド
     # --------------------------------------------------------
@@ -100,3 +107,9 @@ def register_commands(app):
         from .scripts.features.strength.update_strength import update_strength
         with app.app_context():
             update_strength(term=term)
+
+    @app.cli.command('update-play-style')
+    def exec_update_play_style():
+        from .scripts.features.play_style.update_play_style import update_play_style
+        with app.app_context():
+            update_play_style()
