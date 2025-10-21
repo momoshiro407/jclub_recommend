@@ -120,12 +120,12 @@
     {
         "question_order": 12,
         "choice_order": 1,
-        "weights": [{ "feature": "play_style_youth", "weight": 1.0 }]
+        "weights": [{ "feature": "youth_promotion_score", "weight": 1.0 }]
     },
     {
         "question_order": 12,
         "choice_order": 2,
-        "weights": [{ "feature": "play_style_youth", "weight": 0.5 }]
+        "weights": [{ "feature": "youth_promotion_score", "weight": 0.5 }]
     },
     {
         "question_order": 13,

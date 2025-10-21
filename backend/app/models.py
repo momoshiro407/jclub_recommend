@@ -27,7 +27,7 @@ class Club(db.Model):
             - rivalry_intensity_preference: ライバル対戦の激しさ
             - play_style_attack: 攻撃的なサッカースタイルの度合い
             - play_style_defense: 守備的なサッカースタイルの度合い
-            - play_style_youth: 若手育成重視の度合い
+            - youth_promotion_score: 若手育成重視の度合い
             - stadium_access: スタジアムのアクセスの良さ
             - stadium_capacity: スタジアムの収容人数
             - stadium_event_richness: スタジアム内イベントの多さ
@@ -72,7 +72,7 @@ class Club(db.Model):
         db.Float, nullable=False, default=0.5, server_default="0.5")
     play_style_defense = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")
-    play_style_youth = db.Column(
+    youth_promotion_score = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")
     stadium_access = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")

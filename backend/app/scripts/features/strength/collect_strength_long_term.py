@@ -70,6 +70,7 @@ def calc_strength_score(standing: int, total_clubs: int, division: int) -> float
 def collect_strength_long_term(current_year) -> None:
     # 今年+過去4シーズン分を取得
     target_years = list(range(int(current_year), int(current_year) - 5, -1))
+    print(f'target_years: {target_years}')
     all_years_data = []
     for year in target_years:
         # シーズン毎のJ1〜J3全クラブの強さスコアを格納するリスト
@@ -86,14 +87,14 @@ def collect_strength_long_term(current_year) -> None:
                 df[['club_name', 'club_name_short', 'strength_score']])
             time.sleep(1)  # スクレイピングの間隔を空けるため1秒待つ
 
-        # 1シーズン毎のJ1〜J3全クラブの強さスコアを1つのDataFrameにまとめscore_dfsに追加
+        # 1シーズン毎のJ1〜J3全クラブの強さスコアを1つのDataFrameにまとめall_years_dataに追加
         all_years_data.append(pd.concat(yearly_scores, ignore_index=True))
 
-    # 今年のスコアDF（score_dfsの先頭）を基準に過去シーズンのスコアDFをclub_nameでLEFT結合していく
+    # 今年のスコアDF（all_years_dataの先頭）を基準に過去シーズンのスコアDFをclub_nameでLEFT結合していく
     # こうすることで、今シーズンJリーグに所属しているクラブのスコアだけを抽出できる
     current_df = all_years_data[0].copy()
     for i, past_df in enumerate(all_years_data[1:], start=1):
-        # 結合にはクラブ略称のみ使い、重複するクラブ名のカラムは除く
+        # 集計対象期間中に正式名が変更されたクラブもあるので、結合にはクラブ略称を使い重複するクラブ名のカラムは除く
         current_df = current_df.merge(
             past_df[['club_name_short', 'strength_score']],
             on='club_name_short', how='left', suffixes=('', f'_{i}')

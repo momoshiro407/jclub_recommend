@@ -80,6 +80,13 @@ def register_commands(app):
         with app.app_context():
             collect_play_style(year=year)
 
+    @app.cli.command('collect-youth')
+    @click.argument('year')
+    def exec_collect_youth_promotion_score(year):
+        from .scripts.features.youth_promotion_score.collect_youth_promotion_score import collect_youth_promotion_score
+        with app.app_context():
+            collect_youth_promotion_score(current_year=year)
+
     # --------------------------------------------------------
     # 特徴量DB登録用コマンド
     # --------------------------------------------------------
@@ -113,3 +120,9 @@ def register_commands(app):
         from .scripts.features.play_style.update_play_style import update_play_style
         with app.app_context():
             update_play_style()
+
+    @app.cli.command('update-youth')
+    def exec_update_youth_promotion_score():
+        from .scripts.features.youth_promotion_score.update_youth_promotion_score import update_youth_promotion_score
+        with app.app_context():
+            update_youth_promotion_score()
