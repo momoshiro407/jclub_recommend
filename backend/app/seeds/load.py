@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from flask import current_app
 from ..extensions import db
-from ..models import Club, Question, Choice, QuestionChoiceWeight, Prefecture
+from ..models import Club, Question, Choice, QuestionChoiceWeight, Prefecture, Stadium
 
 
 def run_seed_clubs():
@@ -151,6 +151,37 @@ def run_seed_prefectures():
 
     db.session.commit()
     print(f'Seed completed: prefectures (replaced all)')
+
+
+def migrate_stadiums():
+    """Clubデータからスタジアム関係のカラムを抽出しStadiumテーブルに移行する。
+    """
+    clubs = Club.query.order_by(Club.id.asc()).all()
+
+    for club in clubs:
+        if not club.main_stadium_name:
+            continue
+
+        # 既存のスタジアムを検索（同名スタジアムの重複回避）
+        stadium = Stadium.query.filter_by(name=club.main_stadium_name).first()
+
+        # 存在しない場合は新規作成
+        if not stadium:
+            stadium = Stadium(
+                name=club.main_stadium_name,
+                latitude=club.stadium_latitude,
+                longitude=club.stadium_longitude,
+                capacity=club.stadium_capacity,
+                accessibility=club.stadium_access
+            )
+            db.session.add(stadium)
+            db.session.flush()  # ID発行
+
+        # Clubに紐づけ
+        club.main_stadium_id = stadium.id
+
+    db.session.commit()
+    print('Stadiumデータの移行と紐づけ完了')
 
 
 def update_club_features():

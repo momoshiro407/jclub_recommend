@@ -37,6 +37,12 @@ def register_commands(app):
         with app.app_context():
             run_seed_prefectures()
 
+    @app.cli.command('migrate-stadiums')
+    def migrate_stadiums():
+        from .seeds.load import migrate_stadiums
+        with app.app_context():
+            migrate_stadiums()
+
     @app.cli.command('update-club-features')
     def update_club_features():
         from .seeds.load import update_club_features

@@ -10,9 +10,7 @@ class Club(db.Model):
         image_url: クラブイメージ画像URL
         team_color: チームカラー（HEXカラーコード）
         website_url: 公式サイトURL
-        main_stadium_name: メインのホームスタジアム名
-        stadium_latitude: スタジアムの緯度
-        stadium_longitude: スタジアムの経度
+        main_stadium_id: メインのホームスタジアムID
         description: クラブ説明文
         prefecture_id: 都道府県ID
         特徴量カラム: クラブの特徴を数値化したもの（推薦アルゴリズムで使用）
@@ -28,8 +26,6 @@ class Club(db.Model):
             - play_style_attack: 攻撃的なサッカースタイルの度合い
             - play_style_defense: 守備的なサッカースタイルの度合い
             - youth_promotion_score: 若手育成重視の度合い
-            - stadium_access: スタジアムのアクセスの良さ
-            - stadium_capacity: スタジアムの収容人数
             - stadium_event_richness: スタジアム内イベントの多さ
             - home_attendance: ホーム平均観客動員数（中央値）
     """
@@ -41,9 +37,8 @@ class Club(db.Model):
     image_url = db.Column(db.String(255), nullable=True)
     team_color = db.Column(db.String(7), nullable=True)
     website_url = db.Column(db.String(255), nullable=True)
-    main_stadium_name = db.Column(db.String(120), nullable=True)
-    stadium_latitude = db.Column(db.Float, nullable=True)
-    stadium_longitude = db.Column(db.Float, nullable=True)
+    main_stadium_id = db.Column(
+        db.Integer, db.ForeignKey('stadiums.id'), nullable=True)
     description = db.Column(db.Text, nullable=True)
     prefecture_id = db.Column(
         db.Integer, db.ForeignKey('prefectures.id'), nullable=False, default=1, server_default="1")
@@ -74,14 +69,38 @@ class Club(db.Model):
         db.Float, nullable=False, default=0.5, server_default="0.5")
     youth_promotion_score = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")
-    stadium_access = db.Column(
-        db.Float, nullable=False, default=0.5, server_default="0.5")
-    stadium_capacity = db.Column(
-        db.Integer, nullable=False, default=15000, server_default="15000")
     stadium_event_richness = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")
     home_attendance = db.Column(
         db.Integer, nullable=False, default=10000, server_default="10000")
+
+    # リレーションを定義
+    stadium = db.relationship('Stadium', back_populates='clubs')
+
+
+class Stadium(db.Model):
+    """ スタジアム情報モデル
+        id: 自動採番主キー
+        name: スタジアム名
+        stadium_latitude: スタジアム所在地の緯度
+        stadium_longitude: スタジアム所在地の経度
+        特徴量カラム: クラブデータから参照しクラブの特徴として利用する
+            - capacity: 収容人数
+            - accessibility: アクセスの良さ
+    """
+    __tablename__ = 'stadiums'
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(120), unique=True, nullable=False)
+    latitude = db.Column(db.Float, nullable=True)
+    longitude = db.Column(db.Float, nullable=True)
+    capacity = db.Column(db.Integer, nullable=False,
+                         default=15000, server_default="15000")
+    accessibility = db.Column(db.Float, nullable=False,
+                              default=0.5, server_default="0.5")
+
+    # スタジアムを使用するクラブとのリレーション
+    clubs = db.relationship('Club', back_populates='stadium')
 
 
 class Question(db.Model):
