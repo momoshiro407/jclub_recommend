@@ -23,42 +23,67 @@ def run_seed_clubs():
         image_url = c.get('image_url', '').strip()
         team_color = c.get('team_color', '').strip()
         website_url = c.get('website_url', '').strip()
-        main_stadium_name = c.get('main_stadium_name', '').strip()
-        stadium_latitude = c.get('stadium_latitude', 0)
-        stadium_longitude = c.get('stadium_longitude', 0)
         description = c.get('description', '').strip()
         prefcture_id = int(c.get('prefecture_id', 1))
         supporter_heat = c.get('supporter_heat', 0)
         rivalry_intensity_preference = c.get(
             'rivalry_intensity_preference', 0)
-        stadium_capacity = c.get('stadium_capacity', 0)
+        main_stadium_id = c.get('main_stadium_id', 1)
 
         # nameをユニークキーとしてupsert
         club = Club.query.filter_by(name=name).first()
         if club is None:
             db.session.add(
-                Club(name=name, division=division, location=location, image_url=image_url,
-                     team_color=team_color, website_url=website_url, main_stadium_name=main_stadium_name,
-                     stadium_latitude=stadium_latitude, stadium_longitude=stadium_longitude,
-                     description=description, prefecture_id=prefcture_id, supporter_heat=supporter_heat,
-                     rivalry_intensity_preference=rivalry_intensity_preference, stadium_capacity=stadium_capacity))
+                Club(name=name, division=division, location=location, image_url=image_url, team_color=team_color,
+                     website_url=website_url, description=description, prefecture_id=prefcture_id, supporter_heat=supporter_heat,
+                     rivalry_intensity_preference=rivalry_intensity_preference, main_stadium_id=main_stadium_id))
         else:
             club.division = division
             club.location = location
             club.image_url = image_url
             club.team_color = team_color
             club.website_url = website_url
-            club.main_stadium_name = main_stadium_name
-            club.stadium_latitude = stadium_latitude
-            club.stadium_longitude = stadium_longitude
             club.description = description
             club.prefecture_id = prefcture_id
             club.supporter_heat = supporter_heat
             club.rivalry_intensity_preference = rivalry_intensity_preference
-            club.stadium_capacity = stadium_capacity
+            club.main_stadium_id = main_stadium_id
 
     db.session.commit()
     print(f'Seed completed: clubs inserted')
+
+
+def run_seed_stadiums():
+    """ seed_stadiums_2025.jsonを読み込み、Stadiumのシードデータを投入する。
+        nameをユニークキーとしてupsertに対応可能。
+    """
+    path = Path(current_app.root_path) / 'seeds' / 'seed_stadiums_2025.json'
+    if not path.exists():
+        raise FileNotFoundError(f'{path} not found')
+
+    with open(path, 'r', encoding='utf-8') as f:
+        payload = json.load(f)
+
+    for s in payload:
+        name = s.get('name', '').strip()
+        latitude = int(s.get('latitude', 0))
+        longitude = int(s.get('longitude', 0))
+        capacity = int(s.get('capacity', 0))
+        accessibility = int(s.get('accessibility', 0))
+
+        # nameをユニークキーとしてupsert
+        stadium = Stadium.query.filter_by(name=name).first()
+        if stadium is None:
+            db.session.add(
+                Stadium(name=name, latitude=latitude, longitude=longitude, capacity=capacity, accessibility=accessibility))
+        else:
+            stadium.latitude = latitude
+            stadium.longitude = longitude
+            stadium.capacity = capacity
+            stadium.accessibility = accessibility
+
+    db.session.commit()
+    print(f'Seed completed: stadiums inserted')
 
 
 def run_seed_questions():

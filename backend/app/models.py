@@ -82,8 +82,8 @@ class Stadium(db.Model):
     """ スタジアム情報モデル
         id: 自動採番主キー
         name: スタジアム名
-        stadium_latitude: スタジアム所在地の緯度
-        stadium_longitude: スタジアム所在地の経度
+        latitude: スタジアム所在地の緯度
+        longitude: スタジアム所在地の経度
         特徴量カラム: クラブデータから参照しクラブの特徴として利用する
             - capacity: 収容人数
             - accessibility: アクセスの良さ

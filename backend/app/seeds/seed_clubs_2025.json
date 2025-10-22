@@ -6,14 +6,11 @@
     "image_url": "",
     "team_color": "#B8193F",
     "website_url": "https://www.antlers.co.jp/",
-    "main_stadium_name": "メルカリスタジアム",
-    "stadium_latitude": 35.9925,
-    "stadium_longitude": 140.6411,
     "description": "国内外で数多くのタイトルを誇る強豪クラブ。高い育成力と勝負どころでの強さが特徴。",
     "prefecture_id": 8,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 39095
+    "main_stadium_id": 1
   },
   {
     "name": "浦和レッズ",
@@ -22,14 +19,11 @@
     "image_url": "",
     "team_color": "#E6002D",
     "website_url": "https://www.urawa-reds.co.jp/",
-    "main_stadium_name": "埼玉スタジアム２００２",
-    "stadium_latitude": 35.9031,
-    "stadium_longitude": 139.7171,
     "description": "国内最大級のサポーター数を誇るクラブ。熱狂的なホーム雰囲気と国際舞台での実績あり。",
     "prefecture_id": 11,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 62040
+    "main_stadium_id": 2
   },
   {
     "name": "柏レイソル",
@@ -38,14 +32,11 @@
     "image_url": "",
     "team_color": "#FFF100",
     "website_url": "https://www.reysol.co.jp/",
-    "main_stadium_name": "三協フロンテア柏スタジアム",
-    "stadium_latitude": 35.853,
-    "stadium_longitude": 139.9726,
     "description": "",
     "prefecture_id": 12,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15109
+    "main_stadium_id": 3
   },
   {
     "name": "ＦＣ東京",
@@ -54,14 +45,11 @@
     "image_url": "",
     "team_color": "#000a6e",
     "website_url": "https://www.fctokyo.co.jp/",
-    "main_stadium_name": "味の素スタジアム",
-    "stadium_latitude": 35.6645,
-    "stadium_longitude": 139.5275,
     "description": "",
     "prefecture_id": 13,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 47851
+    "main_stadium_id": 4
   },
   {
     "name": "東京ヴェルディ",
@@ -70,14 +58,11 @@
     "image_url": "",
     "team_color": "#046a38",
     "website_url": "https://www.verdy.co.jp/",
-    "main_stadium_name": "味の素スタジアム",
-    "stadium_latitude": 35.6645,
-    "stadium_longitude": 139.5275,
     "description": "",
     "prefecture_id": 13,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 47851
+    "main_stadium_id": 4
   },
   {
     "name": "ＦＣ町田ゼルビア",
@@ -86,14 +71,11 @@
     "image_url": "",
     "team_color": "#001C6D",
     "website_url": "https://www.zelvia.co.jp/",
-    "main_stadium_name": "町田GIONスタジアム",
-    "stadium_latitude": 35.5548,
-    "stadium_longitude": 139.4444,
     "description": "",
     "prefecture_id": 13,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15320
+    "main_stadium_id": 5
   },
   {
     "name": "川崎フロンターレ",
@@ -102,14 +84,11 @@
     "image_url": "",
     "team_color": "#23B1EA",
     "website_url": "https://www.frontale.co.jp/",
-    "main_stadium_name": "Uvanceとどろきスタジアム by Fujitsu",
-    "stadium_latitude": 35.5859,
-    "stadium_longitude": 139.6528,
     "description": "近年タイトルを重ねる強豪クラブ。ファンサービスも豊かで、観客動員力が高い。",
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 26827
+    "main_stadium_id": 6
   },
   {
     "name": "横浜Ｆ・マリノス",
@@ -118,14 +97,11 @@
     "image_url": "",
     "team_color": "#004094",
     "website_url": "https://www.f-marinos.com/",
-    "main_stadium_name": "日産スタジアム",
-    "stadium_latitude": 35.51,
-    "stadium_longitude": 139.606,
     "description": "歴史あるクラブ。国際大会でも実績があり、攻撃的なサッカーと華やかな応援で知られる。",
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 71624
+    "main_stadium_id": 7
   },
   {
     "name": "横浜ＦＣ",
@@ -134,14 +110,11 @@
     "image_url": "",
     "team_color": "#00A1E9",
     "website_url": "https://www.yokohamafc.com/",
-    "main_stadium_name": "ニッパツ三ツ沢球技場",
-    "stadium_latitude": 35.458,
-    "stadium_longitude": 139.6068,
     "description": "",
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15442
+    "main_stadium_id": 8
   },
   {
     "name": "湘南ベルマーレ",
@@ -150,14 +123,11 @@
     "image_url": "",
     "team_color": "#6EB92B",
     "website_url": "https://www.bellmare.co.jp/",
-    "main_stadium_name": "レモンガススタジアム平塚",
-    "stadium_latitude": 35.3315,
-    "stadium_longitude": 139.3423,
     "description": "",
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15380
+    "main_stadium_id": 9
   },
   {
     "name": "アルビレックス新潟",
@@ -166,14 +136,11 @@
     "image_url": "",
     "team_color": "#EA5404",
     "website_url": "https://www.albirex.co.jp/",
-    "main_stadium_name": "デンカビッグスワンスタジアム",
-    "stadium_latitude": 37.8863,
-    "stadium_longitude": 139.0418,
     "description": "",
     "prefecture_id": 15,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 41684
+    "main_stadium_id": 10
   },
   {
     "name": "清水エスパルス",
@@ -182,14 +149,11 @@
     "image_url": "",
     "team_color": "#FF8709",
     "website_url": "https://www.s-pulse.co.jp/",
-    "main_stadium_name": "IAIスタジアム日本平",
-    "stadium_latitude": 35.0004,
-    "stadium_longitude": 138.4489,
     "description": "",
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 19594
+    "main_stadium_id": 11
   },
   {
     "name": "名古屋グランパス",
@@ -198,14 +162,11 @@
     "image_url": "",
     "team_color": "#d80c18",
     "website_url": "https://nagoya-grampus.jp/",
-    "main_stadium_name": "豊田スタジアム",
-    "stadium_latitude": 35.0845,
-    "stadium_longitude": 137.1708,
     "description": "地域との結びつきが強く、熱心なサポーターが支えるクラブ。戦術的な試合運びに強みあり。",
     "prefecture_id": 23,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 42753
+    "main_stadium_id": 12
   },
   {
     "name": "京都サンガF.C.",
@@ -214,14 +175,11 @@
     "image_url": "",
     "team_color": "#750069",
     "website_url": "https://www.sanga-fc.jp/",
-    "main_stadium_name": "サンガスタジアム by KYOCERA",
-    "stadium_latitude": 35.0187,
-    "stadium_longitude": 135.5772,
     "description": "",
     "prefecture_id": 26,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 21623
+    "main_stadium_id": 13
   },
   {
     "name": "ガンバ大阪",
@@ -230,14 +188,11 @@
     "image_url": "",
     "team_color": "#003287",
     "website_url": "https://www.gamba-osaka.net/",
-    "main_stadium_name": "パナソニック スタジアム 吹田",
-    "stadium_latitude": 34.7934,
-    "stadium_longitude": 135.532,
     "description": "西日本を代表するクラブ。攻守のバランスが良く、アカデミー育成にも力を入れている。",
     "prefecture_id": 27,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 39694
+    "main_stadium_id": 14
   },
   {
     "name": "セレッソ大阪",
@@ -246,14 +201,11 @@
     "image_url": "",
     "team_color": "#FA1A82",
     "website_url": "https://www.cerezo.jp/",
-    "main_stadium_name": "ヨドコウ桜スタジアム",
-    "stadium_latitude": 34.616,
-    "stadium_longitude": 135.519,
     "description": "",
     "prefecture_id": 27,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 24481
+    "main_stadium_id": 15
   },
   {
     "name": "ヴィッセル神戸",
@@ -262,14 +214,11 @@
     "image_url": "",
     "team_color": "#9d0020",
     "website_url": "https://www.vissel-kobe.co.jp/",
-    "main_stadium_name": "ノエビアスタジアム神戸",
-    "stadium_latitude": 34.6568,
-    "stadium_longitude": 135.1681,
     "description": "国内外スター選手を擁する注目クラブ。魅せるサッカーを期待させる。",
     "prefecture_id": 28,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 29643
+    "main_stadium_id": 16
   },
   {
     "name": "ファジアーノ岡山",
@@ -278,14 +227,11 @@
     "image_url": "",
     "team_color": "#B5003C",
     "website_url": "https://www.fagiano-okayama.com/",
-    "main_stadium_name": "JFE晴れの国スタジアム",
-    "stadium_latitude": 34.665,
-    "stadium_longitude": 133.9161,
     "description": "",
     "prefecture_id": 33,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15479
+    "main_stadium_id": 17
   },
   {
     "name": "サンフレッチェ広島",
@@ -294,14 +240,11 @@
     "image_url": "",
     "team_color": "#51318F",
     "website_url": "https://www.sanfrecce.co.jp/",
-    "main_stadium_name": "エディオンピースウイング広島",
-    "stadium_latitude": 34.3938,
-    "stadium_longitude": 132.451,
     "description": "紫色を象徴色とするクラブ。スタイルにこだわったプレーと地域貢献活動も盛ん。",
     "prefecture_id": 34,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 28347
+    "main_stadium_id": 18
   },
   {
     "name": "アビスパ福岡",
@@ -310,14 +253,11 @@
     "image_url": "",
     "team_color": "#00205C",
     "website_url": "https://www.avispa.co.jp/",
-    "main_stadium_name": "ベスト電器スタジアム",
-    "stadium_latitude": 33.5932,
-    "stadium_longitude": 130.4536,
     "description": "",
     "prefecture_id": 40,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 21562
+    "main_stadium_id": 19
   },
   {
     "name": "北海道コンサドーレ札幌",
@@ -326,14 +266,11 @@
     "image_url": "",
     "team_color": "#cc0000",
     "website_url": "https://www.consadole-sapporo.jp/",
-    "main_stadium_name": "大和ハウス プレミストドーム",
-    "stadium_latitude": 43.0169,
-    "stadium_longitude": 141.4096,
     "description": "",
     "prefecture_id": 1,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 38794
+    "main_stadium_id": 20
   },
   {
     "name": "ベガルタ仙台",
@@ -342,14 +279,11 @@
     "image_url": "",
     "team_color": "#FFDf00",
     "website_url": "https://www.vegalta.co.jp/",
-    "main_stadium_name": "ユアテックスタジアム仙台",
-    "stadium_latitude": 38.3242,
-    "stadium_longitude": 140.8811,
     "description": "",
     "prefecture_id": 4,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 19526
+    "main_stadium_id": 21
   },
   {
     "name": "ブラウブリッツ秋田",
@@ -358,14 +292,11 @@
     "image_url": "",
     "team_color": "#005BAB",
     "website_url": "https://blaublitz.jp/",
-    "main_stadium_name": "ソユースタジアム",
-    "stadium_latitude": 39.7516,
-    "stadium_longitude": 140.0865,
     "description": "",
     "prefecture_id": 5,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 18560
+    "main_stadium_id": 22
   },
   {
     "name": "モンテディオ山形",
@@ -374,14 +305,11 @@
     "image_url": "",
     "team_color": "#014099",
     "website_url": "https://www.montedioyamagata.jp/",
-    "main_stadium_name": "NDソフトスタジアム山形",
-    "stadium_latitude": 38.3678,
-    "stadium_longitude": 140.3809,
     "description": "",
     "prefecture_id": 6,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 20638
+    "main_stadium_id": 23
   },
   {
     "name": "いわきＦＣ",
@@ -390,14 +318,11 @@
     "image_url": "",
     "team_color": "#C01730",
     "website_url": "https://iwakifc.com/",
-    "main_stadium_name": "ハワイアンズスタジアムいわき",
-    "stadium_latitude": 37.0613,
-    "stadium_longitude": 140.892,
     "description": "",
     "prefecture_id": 7,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5066
+    "main_stadium_id": 24
   },
   {
     "name": "水戸ホーリーホック",
@@ -406,14 +331,11 @@
     "image_url": "",
     "team_color": "#0075c2",
     "website_url": "https://www.mito-hollyhock.net/",
-    "main_stadium_name": "ケーズデンキスタジアム水戸",
-    "stadium_latitude": 36.3437,
-    "stadium_longitude": 140.413,
     "description": "",
     "prefecture_id": 8,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 10152
+    "main_stadium_id": 25
   },
   {
     "name": "ＲＢ大宮アルディージャ",
@@ -422,14 +344,11 @@
     "image_url": "",
     "team_color": "#ED6D00",
     "website_url": "https://www.ardija.co.jp/",
-    "main_stadium_name": "NACK5スタジアム大宮",
-    "stadium_latitude": 35.9152,
-    "stadium_longitude": 139.6239,
     "description": "",
     "prefecture_id": 11,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15491
+    "main_stadium_id": 26
   },
   {
     "name": "ジェフユナイテッド千葉",
@@ -438,14 +357,11 @@
     "image_url": "",
     "team_color": "#FEE100",
     "website_url": "https://jefunited.co.jp/",
-    "main_stadium_name": "フクダ電子アリーナ",
-    "stadium_latitude": 35.5855,
-    "stadium_longitude": 140.1234,
     "description": "",
     "prefecture_id": 12,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 19470
+    "main_stadium_id": 27
   },
   {
     "name": "ヴァンフォーレ甲府",
@@ -454,14 +370,11 @@
     "image_url": "",
     "team_color": "#1937B7",
     "website_url": "https://www.ventfort-kofu.jp/",
-    "main_stadium_name": "JIT リサイクルインク スタジアム",
-    "stadium_latitude": 35.6149,
-    "stadium_longitude": 138.5688,
     "description": "",
     "prefecture_id": 19,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15853
+    "main_stadium_id": 28
   },
   {
     "name": "カターレ富山",
@@ -470,14 +383,11 @@
     "image_url": "",
     "team_color": "#111987",
     "website_url": "https://www.kataller.co.jp/",
-    "main_stadium_name": "富山県総合運動公園陸上競技場",
-    "stadium_latitude": 36.6965,
-    "stadium_longitude": 137.241,
     "description": "",
     "prefecture_id": 16,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 18588
+    "main_stadium_id": 29
   },
   {
     "name": "ジュビロ磐田",
@@ -486,14 +396,11 @@
     "image_url": "",
     "team_color": "#6C8CBD",
     "website_url": "https://www.jubilo-iwata.co.jp/",
-    "main_stadium_name": "ヤマハスタジアム（磐田）",
-    "stadium_latitude": 34.7415,
-    "stadium_longitude": 137.8511,
     "description": "",
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15165
+    "main_stadium_id": 30
   },
   {
     "name": "藤枝ＭＹＦＣ",
@@ -502,14 +409,11 @@
     "image_url": "",
     "team_color": "#86347C",
     "website_url": "https://myfc.co.jp/",
-    "main_stadium_name": "藤枝総合運動公園サッカー場",
-    "stadium_latitude": 34.8757,
-    "stadium_longitude": 138.2316,
     "description": "",
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 10057
+    "main_stadium_id": 31
   },
   {
     "name": "レノファ山口ＦＣ",
@@ -518,14 +422,11 @@
     "image_url": "",
     "team_color": "#EB5E00",
     "website_url": "https://www.renofa.com/",
-    "main_stadium_name": "維新みらいふスタジアム",
-    "stadium_latitude": 34.1686,
-    "stadium_longitude": 131.4413,
     "description": "",
     "prefecture_id": 35,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15115
+    "main_stadium_id": 32
   },
   {
     "name": "徳島ヴォルティス",
@@ -534,14 +435,11 @@
     "image_url": "",
     "team_color": "#01426a",
     "website_url": "https://www.vortis.jp/",
-    "main_stadium_name": "鳴門・大塚スポーツパーク ポカリスエットスタジアム",
-    "stadium_latitude": 34.1697,
-    "stadium_longitude": 134.5855,
     "description": "",
     "prefecture_id": 36,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 17924
+    "main_stadium_id": 33
   },
   {
     "name": "愛媛ＦＣ",
@@ -550,14 +448,11 @@
     "image_url": "",
     "team_color": "#F39801",
     "website_url": "https://www.ehimefc.com/",
-    "main_stadium_name": "ニンジニアスタジアム",
-    "stadium_latitude": 33.839,
-    "stadium_longitude": 132.7653,
     "description": "",
     "prefecture_id": 38,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 20919
+    "main_stadium_id": 34
   },
   {
     "name": "ＦＣ今治",
@@ -566,14 +461,11 @@
     "image_url": "",
     "team_color": "#171C61",
     "website_url": "https://www.fcimabari.com/",
-    "main_stadium_name": "アシックス里山スタジアム",
-    "stadium_latitude": 34.067,
-    "stadium_longitude": 132.9971,
     "description": "",
     "prefecture_id": 38,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5316
+    "main_stadium_id": 35
   },
   {
     "name": "サガン鳥栖",
@@ -582,14 +474,11 @@
     "image_url": "",
     "team_color": "#00A1D3",
     "website_url": "https://www.sagan-tosu.net/",
-    "main_stadium_name": "駅前不動産スタジアム",
-    "stadium_latitude": 33.3703,
-    "stadium_longitude": 130.5168,
     "description": "",
     "prefecture_id": 41,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 20219
+    "main_stadium_id": 36
   },
   {
     "name": "Ｖ・ファーレン長崎",
@@ -598,14 +487,11 @@
     "image_url": "",
     "team_color": "#003893",
     "website_url": "https://www.v-varen.com/",
-    "main_stadium_name": "PEACE STADIUM Connected by SoftBank",
-    "stadium_latitude": 32.8212,
-    "stadium_longitude": 130.0433,
     "description": "",
     "prefecture_id": 42,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 20027
+    "main_stadium_id": 37
   },
   {
     "name": "ロアッソ熊本",
@@ -614,14 +500,11 @@
     "image_url": "",
     "team_color": "#B61A14",
     "website_url": "https://roasso-k.com/",
-    "main_stadium_name": "えがお健康スタジアム",
-    "stadium_latitude": 32.8693,
-    "stadium_longitude": 130.76,
     "description": "",
     "prefecture_id": 43,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 30275
+    "main_stadium_id": 38
   },
   {
     "name": "大分トリニータ",
@@ -630,14 +513,11 @@
     "image_url": "",
     "team_color": "#140B8C",
     "website_url": "https://www.oita-trinita.co.jp/",
-    "main_stadium_name": "クラサスドーム大分",
-    "stadium_latitude": 33.2043,
-    "stadium_longitude": 131.6586,
     "description": "",
     "prefecture_id": 44,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 31997
+    "main_stadium_id": 39
   },
   {
     "name": "ヴァンラーレ八戸",
@@ -646,14 +526,11 @@
     "image_url": "",
     "team_color": "#14A83B",
     "website_url": "https://vanraure.net/",
-    "main_stadium_name": "プライフーズスタジアム",
-    "stadium_latitude": 40.5829,
-    "stadium_longitude": 141.4826,
     "description": "",
     "prefecture_id": 2,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5124
+    "main_stadium_id": 40
   },
   {
     "name": "福島ユナイテッドＦＣ",
@@ -662,14 +539,11 @@
     "image_url": "",
     "team_color": "#E60012",
     "website_url": "https://fufc.jp/",
-    "main_stadium_name": "とうほう・みんなのスタジアム",
-    "stadium_latitude": 37.801,
-    "stadium_longitude": 140.4699,
     "description": "",
     "prefecture_id": 7,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5710
+    "main_stadium_id": 41
   },
   {
     "name": "栃木ＳＣ",
@@ -678,14 +552,11 @@
     "image_url": "",
     "team_color": "#FFF100",
     "website_url": "https://www.tochigisc.jp/",
-    "main_stadium_name": "カンセキスタジアムとちぎ",
-    "stadium_latitude": 36.5658,
-    "stadium_longitude": 139.8989,
     "description": "",
     "prefecture_id": 9,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 24670
+    "main_stadium_id": 42
   },
   {
     "name": "栃木シティ",
@@ -694,14 +565,11 @@
     "image_url": "",
     "team_color": "#002955",
     "website_url": "https://tochigi-city.com/",
-    "main_stadium_name": "CITY FOOTBALL STATION",
-    "stadium_latitude": 36.3998,
-    "stadium_longitude": 139.7177,
     "description": "",
     "prefecture_id": 9,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5128
+    "main_stadium_id": 43
   },
   {
     "name": "ザスパ群馬",
@@ -710,14 +578,11 @@
     "image_url": "",
     "team_color": "#013E74",
     "website_url": "https://www.thespa.co.jp/",
-    "main_stadium_name": "正田醤油スタジアム群馬",
-    "stadium_latitude": 36.4094,
-    "stadium_longitude": 139.0438,
     "description": "",
     "prefecture_id": 10,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15190
+    "main_stadium_id": 44
   },
   {
     "name": "ＳＣ相模原",
@@ -726,14 +591,11 @@
     "image_url": "",
     "team_color": "#278E42",
     "website_url": "https://www.scsagamihara.com/",
-    "main_stadium_name": "相模原ギオンスタジアム",
-    "stadium_latitude": 35.5403,
-    "stadium_longitude": 139.3597,
     "description": "",
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 6259
+    "main_stadium_id": 45
   },
   {
     "name": "松本山雅ＦＣ",
@@ -742,14 +604,11 @@
     "image_url": "",
     "team_color": "#006633",
     "website_url": "https://www.yamaga-fc.com/",
-    "main_stadium_name": "サンプロ アルウィン",
-    "stadium_latitude": 36.2032,
-    "stadium_longitude": 137.9076,
     "description": "",
     "prefecture_id": 20,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 20336
+    "main_stadium_id": 46
   },
   {
     "name": "ＡＣ長野パルセイロ",
@@ -758,14 +617,11 @@
     "image_url": "",
     "team_color": "#EB6100",
     "website_url": "https://parceiro.co.jp/",
-    "main_stadium_name": "長野Uスタジアム",
-    "stadium_latitude": 36.6348,
-    "stadium_longitude": 138.1641,
     "description": "",
     "prefecture_id": 20,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15515
+    "main_stadium_id": 47
   },
   {
     "name": "ツエーゲン金沢",
@@ -774,14 +630,11 @@
     "image_url": "",
     "team_color": "#D70C1F",
     "website_url": "https://www.zweigen-kanazawa.jp/",
-    "main_stadium_name": "金沢ゴーゴーカレースタジアム",
-    "stadium_latitude": 36.5818,
-    "stadium_longitude": 136.6528,
     "description": "",
     "prefecture_id": 17,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 10728
+    "main_stadium_id": 48
   },
   {
     "name": "アスルクラロ沼津",
@@ -790,14 +643,11 @@
     "image_url": "",
     "team_color": "#465AB3",
     "website_url": "https://www.azul-claro.jp/",
-    "main_stadium_name": "愛鷹広域公園多目的競技場",
-    "stadium_latitude": 35.1475,
-    "stadium_longitude": 138.8712,
     "description": "",
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5110
+    "main_stadium_id": 49
   },
   {
     "name": "ＦＣ岐阜",
@@ -806,14 +656,11 @@
     "image_url": "",
     "team_color": "#16582A",
     "website_url": "https://www.fc-gifu.com/",
-    "main_stadium_name": "岐阜メモリアルセンター長良川競技場",
-    "stadium_latitude": 35.4429,
-    "stadium_longitude": 136.7562,
     "description": "",
     "prefecture_id": 21,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 16310
+    "main_stadium_id": 50
   },
   {
     "name": "ＦＣ大阪",
@@ -822,14 +669,11 @@
     "image_url": "",
     "team_color": "#91D4F4",
     "website_url": "https://fc-osaka.com/",
-    "main_stadium_name": "東大阪市花園ラグビー場",
-    "stadium_latitude": 34.661,
-    "stadium_longitude": 135.6014,
     "description": "",
     "prefecture_id": 27,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 26443
+    "main_stadium_id": 51
   },
   {
     "name": "奈良クラブ",
@@ -838,14 +682,11 @@
     "image_url": "",
     "team_color": "#013e7f",
     "website_url": "https://naraclub.jp/",
-    "main_stadium_name": "ロートフィールド奈良",
-    "stadium_latitude": 34.6733,
-    "stadium_longitude": 135.8409,
     "description": "",
     "prefecture_id": 29,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5369
+    "main_stadium_id": 52
   },
   {
     "name": "ガイナーレ鳥取",
@@ -854,14 +695,11 @@
     "image_url": "",
     "team_color": "#90ee90",
     "website_url": "https://www.gainare.co.jp/",
-    "main_stadium_name": "Axisバードスタジアム",
-    "stadium_latitude": 35.5132,
-    "stadium_longitude": 134.1919,
     "description": "",
     "prefecture_id": 31,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 11999
+    "main_stadium_id": 53
   },
   {
     "name": "カマタマーレ讃岐",
@@ -870,14 +708,11 @@
     "image_url": "",
     "team_color": "#65AADD",
     "website_url": "https://www.kamatamare.jp/",
-    "main_stadium_name": "香川県立丸亀競技場",
-    "stadium_latitude": 34.2893,
-    "stadium_longitude": 133.8092,
     "description": "",
     "prefecture_id": 37,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 22338
+    "main_stadium_id": 54
   },
   {
     "name": "高知ユナイテッドＳＣ",
@@ -886,14 +721,11 @@
     "image_url": "",
     "team_color": "#B81C22",
     "website_url": "https://kochi-usc.jp/",
-    "main_stadium_name": "高知県立春野総合運動公園陸上競技場",
-    "stadium_latitude": 33.5029,
-    "stadium_longitude": 133.5101,
     "description": "",
     "prefecture_id": 39,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 16010
+    "main_stadium_id": 55
   },
   {
     "name": "ギラヴァンツ北九州",
@@ -902,14 +734,11 @@
     "image_url": "",
     "team_color": "#FFF100",
     "website_url": "https://www.giravanz.jp/",
-    "main_stadium_name": "ミクニワールドスタジアム北九州",
-    "stadium_latitude": 33.8761,
-    "stadium_longitude": 130.8804,
     "description": "",
     "prefecture_id": 40,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 15300
+    "main_stadium_id": 56
   },
   {
     "name": "テゲバジャーロ宮崎",
@@ -918,14 +747,11 @@
     "image_url": "",
     "team_color": "#E12A75",
     "website_url": "https://www.tegevajaro.com/",
-    "main_stadium_name": "いちご宮崎新富サッカー場",
-    "stadium_latitude": 32.0731,
-    "stadium_longitude": 131.4673,
     "description": "",
     "prefecture_id": 45,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 5375
+    "main_stadium_id": 57
   },
   {
     "name": "鹿児島ユナイテッドＦＣ",
@@ -934,14 +760,11 @@
     "image_url": "",
     "team_color": "#2E3B67",
     "website_url": "https://kufc.co.jp/",
-    "main_stadium_name": "白波スタジアム",
-    "stadium_latitude": 31.5542,
-    "stadium_longitude": 130.5467,
     "description": "",
     "prefecture_id": 46,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 12606
+    "main_stadium_id": 58
   },
   {
     "name": "ＦＣ琉球",
@@ -950,13 +773,10 @@
     "image_url": "",
     "team_color": "#CA0915",
     "website_url": "https://fcryukyu.com/",
-    "main_stadium_name": "沖縄県総合運動公園陸上競技場",
-    "stadium_latitude": 26.3196,
-    "stadium_longitude": 127.8061,
     "description": "",
     "prefecture_id": 47,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "stadium_capacity": 10189
+    "main_stadium_id": 59
   }
 ]
