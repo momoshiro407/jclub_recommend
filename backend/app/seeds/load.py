@@ -29,6 +29,13 @@ def run_seed_clubs():
         rivalry_intensity_preference = c.get(
             'rivalry_intensity_preference', 0)
         main_stadium_id = c.get('main_stadium_id', 1)
+        win_j1 = c.get('win_j1', 0)
+        win_j2 = c.get('win_j2', 0)
+        win_j3 = c.get('win_j3', 0)
+        win_emperor = c.get('win_emperor', 0)
+        win_levain = c.get('win_levain', 0)
+        win_acl = c.get('win_acl', 0)
+        win_acl2 = c.get('win_acl2', 0)
 
         # nameをユニークキーとしてupsert
         club = Club.query.filter_by(name=name).first()
@@ -36,7 +43,9 @@ def run_seed_clubs():
             db.session.add(
                 Club(name=name, division=division, location=location, image_url=image_url, team_color=team_color,
                      website_url=website_url, description=description, prefecture_id=prefcture_id, supporter_heat=supporter_heat,
-                     rivalry_intensity_preference=rivalry_intensity_preference, main_stadium_id=main_stadium_id))
+                     rivalry_intensity_preference=rivalry_intensity_preference, main_stadium_id=main_stadium_id,
+                     win_j1=win_j1, win_j2=win_j2, win_j3=win_j3, win_emperor=win_emperor, win_levain=win_levain,
+                     win_acl=win_acl, win_acl2=win_acl2))
         else:
             club.division = division
             club.location = location
@@ -48,6 +57,13 @@ def run_seed_clubs():
             club.supporter_heat = supporter_heat
             club.rivalry_intensity_preference = rivalry_intensity_preference
             club.main_stadium_id = main_stadium_id
+            club.win_j1 = win_j1
+            club.win_j2 = win_j2
+            club.win_j3 = win_j3
+            club.win_emperor = win_emperor
+            club.win_levain = win_levain
+            club.win_acl = win_acl
+            club.win_acl2 = win_acl2
 
     db.session.commit()
     print(f'Seed completed: clubs inserted')

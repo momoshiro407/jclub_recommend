@@ -28,6 +28,14 @@ class Club(db.Model):
             - youth_promotion_score: 若手育成重視の度合い
             - stadium_event_richness: スタジアム内イベントの多さ
             - home_attendance: ホーム平均観客動員数（中央値）
+        特徴量サブカラム: クラブの特徴計算に使う補助的な値
+            - win_j1: J1優勝回数
+            - win_j2: J2優勝回数
+            - win_j3: J3優勝回数
+            - win_emperor: 天皇杯優勝回数
+            - win_levain: ルヴァンカップ優勝回数
+            - win_acl: ACL優勝回数
+            - win_acl2: ACL2優勝回数
     """
     __tablename__ = 'clubs'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -73,6 +81,21 @@ class Club(db.Model):
         db.Float, nullable=False, default=0.5, server_default="0.5")
     home_attendance = db.Column(
         db.Integer, nullable=False, default=10000, server_default="10000")
+    # ---- 特徴量サブカラム ----
+    win_j1 = db.Column(db.Integer, nullable=False,
+                       default=0, server_default="0")
+    win_j2 = db.Column(db.Integer, nullable=False,
+                       default=0, server_default="0")
+    win_j3 = db.Column(db.Integer, nullable=False,
+                       default=0, server_default="0")
+    win_emperor = db.Column(db.Integer, nullable=False,
+                            default=0, server_default="0")
+    win_levain = db.Column(db.Integer, nullable=False,
+                           default=0, server_default="0")
+    win_acl = db.Column(db.Integer, nullable=False,
+                        default=0, server_default="0")
+    win_acl2 = db.Column(db.Integer, nullable=False,
+                         default=0, server_default="0")
 
     # リレーションを定義
     stadium = db.relationship('Stadium', back_populates='clubs')

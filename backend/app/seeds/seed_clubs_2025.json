@@ -10,7 +10,14 @@
     "prefecture_id": 8,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 1
+    "main_stadium_id": 1,
+    "win_j1": 8,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 5,
+    "win_levain": 6,
+    "win_acl": 1,
+    "win_acl2": 0
   },
   {
     "name": "浦和レッズ",
@@ -23,7 +30,14 @@
     "prefecture_id": 11,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 2
+    "main_stadium_id": 2,
+    "win_j1": 1,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 4,
+    "win_levain": 2,
+    "win_acl": 3,
+    "win_acl2": 0
   },
   {
     "name": "柏レイソル",
@@ -36,7 +50,14 @@
     "prefecture_id": 12,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 3
+    "main_stadium_id": 3,
+    "win_j1": 1,
+    "win_j2": 2,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 2,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＦＣ東京",
@@ -49,7 +70,14 @@
     "prefecture_id": 13,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 4
+    "main_stadium_id": 4,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 3,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "東京ヴェルディ",
@@ -62,7 +90,14 @@
     "prefecture_id": 13,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 4
+    "main_stadium_id": 4,
+    "win_j1": 2,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 2,
+    "win_levain": 3,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＦＣ町田ゼルビア",
@@ -75,7 +110,14 @@
     "prefecture_id": 13,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 5
+    "main_stadium_id": 5,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "川崎フロンターレ",
@@ -88,7 +130,14 @@
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 6
+    "main_stadium_id": 6,
+    "win_j1": 4,
+    "win_j2": 2,
+    "win_j3": 0,
+    "win_emperor": 2,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "横浜Ｆ・マリノス",
@@ -101,7 +150,14 @@
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 7
+    "main_stadium_id": 7,
+    "win_j1": 5,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 2,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "横浜ＦＣ",
@@ -114,7 +170,14 @@
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 8
+    "main_stadium_id": 8,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "湘南ベルマーレ",
@@ -127,7 +190,14 @@
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 9
+    "main_stadium_id": 9,
+    "win_j1": 0,
+    "win_j2": 2,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "アルビレックス新潟",
@@ -140,7 +210,14 @@
     "prefecture_id": 15,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 10
+    "main_stadium_id": 10,
+    "win_j1": 0,
+    "win_j2": 2,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "清水エスパルス",
@@ -153,7 +230,14 @@
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 11
+    "main_stadium_id": 11,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "名古屋グランパス",
@@ -166,7 +250,14 @@
     "prefecture_id": 23,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 12
+    "main_stadium_id": 12,
+    "win_j1": 1,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 2,
+    "win_levain": 2,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "京都サンガF.C.",
@@ -179,7 +270,14 @@
     "prefecture_id": 26,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 13
+    "main_stadium_id": 13,
+    "win_j1": 0,
+    "win_j2": 2,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ガンバ大阪",
@@ -192,7 +290,14 @@
     "prefecture_id": 27,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 14
+    "main_stadium_id": 14,
+    "win_j1": 2,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 4,
+    "win_levain": 2,
+    "win_acl": 1,
+    "win_acl2": 0
   },
   {
     "name": "セレッソ大阪",
@@ -205,7 +310,14 @@
     "prefecture_id": 27,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 15
+    "main_stadium_id": 15,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ヴィッセル神戸",
@@ -218,7 +330,14 @@
     "prefecture_id": 28,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 16
+    "main_stadium_id": 16,
+    "win_j1": 2,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 2,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ファジアーノ岡山",
@@ -231,7 +350,14 @@
     "prefecture_id": 33,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 17
+    "main_stadium_id": 17,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "サンフレッチェ広島",
@@ -244,7 +370,14 @@
     "prefecture_id": 34,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 18
+    "main_stadium_id": 18,
+    "win_j1": 3,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "アビスパ福岡",
@@ -257,7 +390,14 @@
     "prefecture_id": 40,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 19
+    "main_stadium_id": 19,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "北海道コンサドーレ札幌",
@@ -270,7 +410,14 @@
     "prefecture_id": 1,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 20
+    "main_stadium_id": 20,
+    "win_j1": 0,
+    "win_j2": 3,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ベガルタ仙台",
@@ -283,7 +430,14 @@
     "prefecture_id": 4,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 21
+    "main_stadium_id": 21,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ブラウブリッツ秋田",
@@ -296,7 +450,14 @@
     "prefecture_id": 5,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 22
+    "main_stadium_id": 22,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 2,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "モンテディオ山形",
@@ -309,7 +470,14 @@
     "prefecture_id": 6,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 23
+    "main_stadium_id": 23,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "いわきＦＣ",
@@ -322,7 +490,14 @@
     "prefecture_id": 7,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 24
+    "main_stadium_id": 24,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "水戸ホーリーホック",
@@ -335,7 +510,14 @@
     "prefecture_id": 8,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 25
+    "main_stadium_id": 25,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＲＢ大宮アルディージャ",
@@ -348,7 +530,14 @@
     "prefecture_id": 11,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 26
+    "main_stadium_id": 26,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ジェフユナイテッド千葉",
@@ -361,7 +550,14 @@
     "prefecture_id": 12,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 27
+    "main_stadium_id": 27,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 2,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ヴァンフォーレ甲府",
@@ -374,7 +570,14 @@
     "prefecture_id": 19,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 28
+    "main_stadium_id": 28,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "カターレ富山",
@@ -387,7 +590,14 @@
     "prefecture_id": 16,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 29
+    "main_stadium_id": 29,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ジュビロ磐田",
@@ -400,7 +610,14 @@
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 30
+    "main_stadium_id": 30,
+    "win_j1": 3,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 1,
+    "win_levain": 2,
+    "win_acl": 1,
+    "win_acl2": 0
   },
   {
     "name": "藤枝ＭＹＦＣ",
@@ -413,7 +630,14 @@
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 31
+    "main_stadium_id": 31,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "レノファ山口ＦＣ",
@@ -426,7 +650,14 @@
     "prefecture_id": 35,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 32
+    "main_stadium_id": 32,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "徳島ヴォルティス",
@@ -439,7 +670,14 @@
     "prefecture_id": 36,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 33
+    "main_stadium_id": 33,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "愛媛ＦＣ",
@@ -452,7 +690,14 @@
     "prefecture_id": 38,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 34
+    "main_stadium_id": 34,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＦＣ今治",
@@ -465,7 +710,14 @@
     "prefecture_id": 38,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 35
+    "main_stadium_id": 35,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "サガン鳥栖",
@@ -478,7 +730,14 @@
     "prefecture_id": 41,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 36
+    "main_stadium_id": 36,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "Ｖ・ファーレン長崎",
@@ -491,7 +750,14 @@
     "prefecture_id": 42,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 37
+    "main_stadium_id": 37,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ロアッソ熊本",
@@ -504,7 +770,14 @@
     "prefecture_id": 43,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 38
+    "main_stadium_id": 38,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "大分トリニータ",
@@ -517,7 +790,14 @@
     "prefecture_id": 44,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 39
+    "main_stadium_id": 39,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 1,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ヴァンラーレ八戸",
@@ -530,7 +810,14 @@
     "prefecture_id": 2,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 40
+    "main_stadium_id": 40,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "福島ユナイテッドＦＣ",
@@ -543,7 +830,14 @@
     "prefecture_id": 7,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 41
+    "main_stadium_id": 41,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "栃木ＳＣ",
@@ -556,7 +850,14 @@
     "prefecture_id": 9,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 42
+    "main_stadium_id": 42,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "栃木シティ",
@@ -569,7 +870,14 @@
     "prefecture_id": 9,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 43
+    "main_stadium_id": 43,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ザスパ群馬",
@@ -582,7 +890,14 @@
     "prefecture_id": 10,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 44
+    "main_stadium_id": 44,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＳＣ相模原",
@@ -595,7 +910,14 @@
     "prefecture_id": 14,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 45
+    "main_stadium_id": 45,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "松本山雅ＦＣ",
@@ -608,7 +930,14 @@
     "prefecture_id": 20,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 46
+    "main_stadium_id": 46,
+    "win_j1": 0,
+    "win_j2": 1,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＡＣ長野パルセイロ",
@@ -621,7 +950,14 @@
     "prefecture_id": 20,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 47
+    "main_stadium_id": 47,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ツエーゲン金沢",
@@ -634,7 +970,14 @@
     "prefecture_id": 17,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 48
+    "main_stadium_id": 48,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "アスルクラロ沼津",
@@ -647,7 +990,14 @@
     "prefecture_id": 22,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 49
+    "main_stadium_id": 49,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＦＣ岐阜",
@@ -660,7 +1010,14 @@
     "prefecture_id": 21,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 50
+    "main_stadium_id": 50,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＦＣ大阪",
@@ -673,7 +1030,14 @@
     "prefecture_id": 27,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 51
+    "main_stadium_id": 51,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "奈良クラブ",
@@ -686,7 +1050,14 @@
     "prefecture_id": 29,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 52
+    "main_stadium_id": 52,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ガイナーレ鳥取",
@@ -699,7 +1070,14 @@
     "prefecture_id": 31,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 53
+    "main_stadium_id": 53,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "カマタマーレ讃岐",
@@ -712,7 +1090,14 @@
     "prefecture_id": 37,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 54
+    "main_stadium_id": 54,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "高知ユナイテッドＳＣ",
@@ -725,7 +1110,14 @@
     "prefecture_id": 39,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 55
+    "main_stadium_id": 55,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ギラヴァンツ北九州",
@@ -738,7 +1130,14 @@
     "prefecture_id": 40,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 56
+    "main_stadium_id": 56,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "テゲバジャーロ宮崎",
@@ -751,7 +1150,14 @@
     "prefecture_id": 45,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 57
+    "main_stadium_id": 57,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "鹿児島ユナイテッドＦＣ",
@@ -764,7 +1170,14 @@
     "prefecture_id": 46,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 58
+    "main_stadium_id": 58,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   },
   {
     "name": "ＦＣ琉球",
@@ -777,6 +1190,13 @@
     "prefecture_id": 47,
     "supporter_heat": 0.5,
     "rivalry_intensity_preference": 0.5,
-    "main_stadium_id": 59
+    "main_stadium_id": 59,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
   }
 ]
