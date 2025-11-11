@@ -16,8 +16,8 @@ class Club(db.Model):
         特徴量カラム: クラブの特徴を数値化したもの（推薦アルゴリズムで使用）
             - strength_long_term: 長期的な強さ
             - strength_short_term: 短期的な強さ
-            - domestic_titles: 国内タイトル数
-            - international_titles: 国際タイトル数
+            - domestic_titles: 国内タイトル数の指標
+            - international_titles: 国際タイトル数の指標
             - popularity_score: 人気度スコア
             - supporter_heat: サポーターの熱量
             - financial_power: 財政力
@@ -58,9 +58,9 @@ class Club(db.Model):
     strength_short_term = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")
     domestic_titles = db.Column(
-        db.Integer, nullable=False, default=0, server_default="0")
+        db.Float, nullable=False, default=0, server_default="0")
     international_titles = db.Column(
-        db.Integer, nullable=False, default=0, server_default="0")
+        db.Float, nullable=False, default=0, server_default="0")
     popularity_score = db.Column(
         db.Float, nullable=False, default=0.5, server_default="0.5")
     supporter_heat = db.Column(

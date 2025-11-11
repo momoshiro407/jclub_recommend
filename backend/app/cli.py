@@ -132,3 +132,9 @@ def register_commands(app):
         from .scripts.features.youth_promotion_score.update_youth_promotion_score import update_youth_promotion_score
         with app.app_context():
             update_youth_promotion_score()
+
+    @app.cli.command('update-titles')
+    def exec_update_titles():
+        from .scripts.features.titles.update_titles import update_titles
+        with app.app_context():
+            update_titles()
