@@ -5,6 +5,7 @@ class Club(db.Model):
     """ Jリーグクラブ情報のモデル
         id: 自動採番主キー
         name: クラブ名
+        short_name: クラブ名略称
         division: 所属ディビジョン（0=Jリーグ以外,1=J1, 2=J2, 3=J3）
         location: クラブ所在地
         image_url: クラブイメージ画像URL
@@ -40,6 +41,8 @@ class Club(db.Model):
     __tablename__ = 'clubs'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(120), unique=True, nullable=False)
+    short_name = db.Column(
+        db.String(120), nullable=False, server_default="NONE")
     division = db.Column(db.Integer, nullable=False)
     location = db.Column(db.String(120), nullable=False)
     image_url = db.Column(db.String(255), nullable=True)

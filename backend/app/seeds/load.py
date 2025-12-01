@@ -18,6 +18,7 @@ def run_seed_clubs():
 
     for c in payload:
         name = c.get('name', '').strip()
+        short_name = c.get('short_name', '').strip()
         division = int(c.get('division', 0))
         location = c.get('location', '').strip()
         image_url = c.get('image_url', '').strip()
@@ -41,12 +42,13 @@ def run_seed_clubs():
         club = Club.query.filter_by(name=name).first()
         if club is None:
             db.session.add(
-                Club(name=name, division=division, location=location, image_url=image_url, team_color=team_color,
+                Club(name=name, short_name=short_name, division=division, location=location, image_url=image_url, team_color=team_color,
                      website_url=website_url, description=description, prefecture_id=prefcture_id, supporter_heat=supporter_heat,
                      rivalry_intensity_preference=rivalry_intensity_preference, main_stadium_id=main_stadium_id,
                      win_j1=win_j1, win_j2=win_j2, win_j3=win_j3, win_emperor=win_emperor, win_levain=win_levain,
                      win_acl=win_acl, win_acl2=win_acl2))
         else:
+            club.short_name = short_name
             club.division = division
             club.location = location
             club.image_url = image_url

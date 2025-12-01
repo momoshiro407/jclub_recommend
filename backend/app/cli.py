@@ -138,3 +138,9 @@ def register_commands(app):
         from .scripts.features.titles.update_titles import update_titles
         with app.app_context():
             update_titles()
+
+    @app.cli.command('update-financial-power')
+    def exec_update_financial_power():
+        from .scripts.features.financial_power.update_financial_power import update_financial_power
+        with app.app_context():
+            update_financial_power()
