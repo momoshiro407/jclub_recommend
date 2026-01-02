@@ -170,7 +170,7 @@
   {
     "name": "横浜ＦＣ",
     "short_name": "横浜ＦＣ",
-    "division": 1,
+    "division": 2,
     "location": "神奈川県横浜市",
     "image_url": "",
     "team_color": "#00A1E9",
@@ -191,7 +191,7 @@
   {
     "name": "湘南ベルマーレ",
     "short_name": "湘南",
-    "division": 1,
+    "division": 2,
     "location": "神奈川県平塚市",
     "image_url": "",
     "team_color": "#6EB92B",
@@ -212,7 +212,7 @@
   {
     "name": "アルビレックス新潟",
     "short_name": "新潟",
-    "division": 1,
+    "division": 2,
     "location": "新潟県新潟市",
     "image_url": "",
     "team_color": "#EA5404",
@@ -527,7 +527,7 @@
   {
     "name": "水戸ホーリーホック",
     "short_name": "水戸",
-    "division": 2,
+    "division": 1,
     "location": "茨城県水戸市",
     "image_url": "",
     "team_color": "#0075c2",
@@ -569,7 +569,7 @@
   {
     "name": "ジェフユナイテッド千葉",
     "short_name": "千葉",
-    "division": 2,
+    "division": 1,
     "location": "千葉県千葉市",
     "image_url": "",
     "team_color": "#FEE100",
@@ -674,7 +674,7 @@
   {
     "name": "レノファ山口ＦＣ",
     "short_name": "山口",
-    "division": 2,
+    "division": 3,
     "location": "山口県山口市",
     "image_url": "",
     "team_color": "#EB5E00",
@@ -716,7 +716,7 @@
   {
     "name": "愛媛ＦＣ",
     "short_name": "愛媛",
-    "division": 2,
+    "division": 3,
     "location": "愛媛県松山市",
     "image_url": "",
     "team_color": "#F39801",
@@ -779,7 +779,7 @@
   {
     "name": "Ｖ・ファーレン長崎",
     "short_name": "長崎",
-    "division": 2,
+    "division": 1,
     "location": "長崎県長崎市",
     "image_url": "",
     "team_color": "#003893",
@@ -800,7 +800,7 @@
   {
     "name": "ロアッソ熊本",
     "short_name": "熊本",
-    "division": 2,
+    "division": 3,
     "location": "熊本県熊本市",
     "image_url": "",
     "team_color": "#B61A14",
@@ -842,7 +842,7 @@
   {
     "name": "ヴァンラーレ八戸",
     "short_name": "八戸",
-    "division": 3,
+    "division": 2,
     "location": "青森県八戸市",
     "image_url": "",
     "team_color": "#14A83B",
@@ -905,7 +905,7 @@
   {
     "name": "栃木シティ",
     "short_name": "栃木Ｃ",
-    "division": 3,
+    "division": 2,
     "location": "栃木県栃木市",
     "image_url": "",
     "team_color": "#002955",
@@ -1031,7 +1031,7 @@
   {
     "name": "アスルクラロ沼津",
     "short_name": "沼津",
-    "division": 3,
+    "division": 0,
     "location": "静岡県沼津市",
     "image_url": "",
     "team_color": "#465AB3",
@@ -1199,7 +1199,7 @@
   {
     "name": "テゲバジャーロ宮崎",
     "short_name": "宮崎",
-    "division": 3,
+    "division": 2,
     "location": "宮崎県宮崎市",
     "image_url": "",
     "team_color": "#E12A75",
@@ -1254,6 +1254,27 @@
     "win_j1": 0,
     "win_j2": 0,
     "win_j3": 1,
+    "win_emperor": 0,
+    "win_levain": 0,
+    "win_acl": 0,
+    "win_acl2": 0
+  },
+  {
+    "name": "レイラック滋賀ＦＣ",
+    "short_name": "滋賀",
+    "division": 3,
+    "location": "滋賀県",
+    "image_url": "",
+    "team_color": "#5DB8E9",
+    "website_url": "https://reilac-shiga.co.jp/",
+    "description": "",
+    "prefecture_id": 25,
+    "supporter_heat": 0.5,
+    "rivalry_intensity_preference": 0.5,
+    "main_stadium_id": 60,
+    "win_j1": 0,
+    "win_j2": 0,
+    "win_j3": 0,
     "win_emperor": 0,
     "win_levain": 0,
     "win_acl": 0,
