@@ -1,415 +1,533 @@
 [
   {
+    "id": 1,
     "name": "メルカリスタジアム",
     "latitude": 35.9925,
     "longitude": 140.6411,
     "capacity": 39095,
-    "accessibility": 0.5
+    "walking_time_required": 2,
+    "bus_time_required": null
   },
   {
+    "id": 2,
     "name": "埼玉スタジアム２００２",
     "latitude": 35.9031,
     "longitude": 139.7171,
     "capacity": 62040,
-    "accessibility": 0.5
+    "walking_time_required": 20,
+    "bus_time_required": 10
   },
   {
+    "id": 3,
     "name": "三協フロンテア柏スタジアム",
     "latitude": 35.853,
     "longitude": 139.9726,
     "capacity": 15109,
-    "accessibility": 0.5
+    "walking_time_required": 20,
+    "bus_time_required": null
   },
   {
+    "id": 4,
     "name": "味の素スタジアム",
     "latitude": 35.6645,
     "longitude": 139.5275,
     "capacity": 47851,
-    "accessibility": 0.5
+    "walking_time_required": 5,
+    "bus_time_required": null
   },
   {
+    "id": 5,
     "name": "町田GIONスタジアム",
     "latitude": 35.5548,
     "longitude": 139.4444,
     "capacity": 15320,
-    "accessibility": 0.5
+    "walking_time_required": 60,
+    "bus_time_required": 20
   },
   {
+    "id": 6,
     "name": "Uvanceとどろきスタジアム by Fujitsu",
     "latitude": 35.5859,
     "longitude": 139.6528,
     "capacity": 26827,
-    "accessibility": 0.5
+    "walking_time_required": 20,
+    "bus_time_required": 5
   },
   {
+    "id": 7,
     "name": "日産スタジアム",
     "latitude": 35.51,
     "longitude": 139.606,
     "capacity": 71624,
-    "accessibility": 0.5
+    "walking_time_required": 7,
+    "bus_time_required": null
   },
   {
+    "id": 8,
     "name": "ニッパツ三ツ沢球技場",
     "latitude": 35.458,
     "longitude": 139.6068,
     "capacity": 15442,
-    "accessibility": 0.5
+    "walking_time_required": 15,
+    "bus_time_required": null
   },
   {
+    "id": 9,
     "name": "レモンガススタジアム平塚",
     "latitude": 35.3315,
     "longitude": 139.3423,
     "capacity": 15380,
-    "accessibility": 0.5
+    "walking_time_required": 25,
+    "bus_time_required": 7
   },
   {
+    "id": 10,
     "name": "デンカビッグスワンスタジアム",
     "latitude": 37.8863,
     "longitude": 139.0418,
     "capacity": 41684,
-    "accessibility": 0.5
+    "walking_time_required": 50,
+    "bus_time_required": 20
   },
   {
+    "id": 11,
     "name": "IAIスタジアム日本平",
     "latitude": 35.0004,
     "longitude": 138.4489,
     "capacity": 19594,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 10
   },
   {
+    "id": 12,
     "name": "豊田スタジアム",
     "latitude": 35.0845,
     "longitude": 137.1708,
     "capacity": 42753,
-    "accessibility": 0.5
+    "walking_time_required": 17,
+    "bus_time_required": null
   },
   {
+    "id": 13,
     "name": "サンガスタジアム by KYOCERA",
     "latitude": 35.0187,
     "longitude": 135.5772,
     "capacity": 21623,
-    "accessibility": 0.5
+    "walking_time_required": 3,
+    "bus_time_required": null
   },
   {
+    "id": 14,
     "name": "パナソニック スタジアム 吹田",
     "latitude": 34.7934,
     "longitude": 135.532,
     "capacity": 39694,
-    "accessibility": 0.5
+    "walking_time_required": 15,
+    "bus_time_required": null
   },
   {
+    "id": 15,
     "name": "ヨドコウ桜スタジアム",
     "latitude": 34.616,
     "longitude": 135.519,
     "capacity": 24481,
-    "accessibility": 0.5
+    "walking_time_required": 7,
+    "bus_time_required": null
   },
   {
+    "id": 16,
     "name": "ノエビアスタジアム神戸",
     "latitude": 34.6568,
     "longitude": 135.1681,
     "capacity": 29643,
-    "accessibility": 0.5
+    "walking_time_required": 5,
+    "bus_time_required": null
   },
   {
+    "id": 17,
     "name": "JFE晴れの国スタジアム",
     "latitude": 34.665,
     "longitude": 133.9161,
     "capacity": 15479,
-    "accessibility": 0.5
+    "walking_time_required": 20,
+    "bus_time_required": 3
   },
   {
+    "id": 18,
     "name": "エディオンピースウイング広島",
     "latitude": 34.3938,
     "longitude": 132.451,
     "capacity": 28347,
-    "accessibility": 0.5
+    "walking_time_required": 15,
+    "bus_time_required": null
   },
   {
+    "id": 19,
     "name": "ベスト電器スタジアム",
     "latitude": 33.5932,
     "longitude": 130.4536,
     "capacity": 21562,
-    "accessibility": 0.5
+    "walking_time_required": 27,
+    "bus_time_required": 8
   },
   {
+    "id": 20,
     "name": "大和ハウス プレミストドーム",
     "latitude": 43.0169,
     "longitude": 141.4096,
     "capacity": 38794,
-    "accessibility": 0.5
+    "walking_time_required": 10,
+    "bus_time_required": null
   },
   {
+    "id": 21,
     "name": "ユアテックスタジアム仙台",
     "latitude": 38.3242,
     "longitude": 140.8811,
     "capacity": 19526,
-    "accessibility": 0.5
+    "walking_time_required": 4,
+    "bus_time_required": null
   },
   {
+    "id": 22,
     "name": "ソユースタジアム",
     "latitude": 39.7516,
     "longitude": 140.0865,
     "capacity": 18560,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 15
   },
   {
+    "id": 23,
     "name": "NDソフトスタジアム山形",
     "latitude": 38.3678,
     "longitude": 140.3809,
     "capacity": 20638,
-    "accessibility": 0.5
+    "walking_time_required": 15,
+    "bus_time_required": null
   },
   {
+    "id": 24,
     "name": "ハワイアンズスタジアムいわき",
     "latitude": 37.0613,
     "longitude": 140.892,
     "capacity": 5066,
-    "accessibility": 0.5
+    "walking_time_required": 30,
+    "bus_time_required": 10
   },
   {
+    "id": 25,
     "name": "ケーズデンキスタジアム水戸",
     "latitude": 36.3437,
     "longitude": 140.413,
     "capacity": 10152,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 30
   },
   {
+    "id": 26,
     "name": "NACK5スタジアム大宮",
     "latitude": 35.9152,
     "longitude": 139.6239,
     "capacity": 15491,
-    "accessibility": 0.5
+    "walking_time_required": 10,
+    "bus_time_required": null
   },
   {
+    "id": 27,
     "name": "フクダ電子アリーナ",
     "latitude": 35.5855,
     "longitude": 140.1234,
     "capacity": 19470,
-    "accessibility": 0.5
+    "walking_time_required": 8,
+    "bus_time_required": null
   },
   {
+    "id": 28,
     "name": "JIT リサイクルインク スタジアム",
     "latitude": 35.6149,
     "longitude": 138.5688,
     "capacity": 15853,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 30
   },
   {
+    "id": 29,
     "name": "富山県総合運動公園陸上競技場",
     "latitude": 36.6965,
     "longitude": 137.241,
     "capacity": 18588,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 35
   },
   {
+    "id": 30,
     "name": "ヤマハスタジアム（磐田）",
     "latitude": 34.7415,
     "longitude": 137.8511,
     "capacity": 15165,
-    "accessibility": 0.5
+    "walking_time_required": 20,
+    "bus_time_required": null
   },
   {
+    "id": 31,
     "name": "藤枝総合運動公園サッカー場",
     "latitude": 34.8757,
     "longitude": 138.2316,
     "capacity": 10057,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 20
   },
   {
+    "id": 32,
     "name": "維新みらいふスタジアム",
     "latitude": 34.1686,
     "longitude": 131.4413,
     "capacity": 15115,
-    "accessibility": 0.5
+    "walking_time_required": 12,
+    "bus_time_required": null
   },
   {
+    "id": 33,
     "name": "鳴門・大塚スポーツパーク ポカリスエットスタジアム",
     "latitude": 34.1697,
     "longitude": 134.5855,
     "capacity": 17924,
-    "accessibility": 0.5
+    "walking_time_required": 25,
+    "bus_time_required": null
   },
   {
+    "id": 34,
     "name": "ニンジニアスタジアム",
     "latitude": 33.839,
     "longitude": 132.7653,
     "capacity": 20919,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 30
   },
   {
+    "id": 35,
     "name": "アシックス里山スタジアム",
     "latitude": 34.067,
     "longitude": 132.9971,
     "capacity": 5316,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 15
   },
   {
+    "id": 36,
     "name": "駅前不動産スタジアム",
     "latitude": 33.3703,
     "longitude": 130.5168,
     "capacity": 20219,
-    "accessibility": 0.5
+    "walking_time_required": 3,
+    "bus_time_required": null
   },
   {
+    "id": 37,
     "name": "PEACE STADIUM Connected by SoftBank",
     "latitude": 32.8212,
     "longitude": 130.0433,
     "capacity": 20027,
-    "accessibility": 0.5
+    "walking_time_required": 8,
+    "bus_time_required": null
   },
   {
+    "id": 38,
     "name": "えがお健康スタジアム",
     "latitude": 32.8693,
     "longitude": 130.76,
     "capacity": 30275,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 50
   },
   {
+    "id": 39,
     "name": "クラサスドーム大分",
     "latitude": 33.2043,
     "longitude": 131.6586,
     "capacity": 31997,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 30
   },
   {
+    "id": 40,
     "name": "プライフーズスタジアム",
     "latitude": 40.5829,
     "longitude": 141.4826,
     "capacity": 5124,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 20
   },
   {
+    "id": 41,
     "name": "とうほう・みんなのスタジアム",
     "latitude": 37.801,
     "longitude": 140.4699,
     "capacity": 5710,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 25
   },
   {
+    "id": 42,
     "name": "カンセキスタジアムとちぎ",
     "latitude": 36.5658,
     "longitude": 139.8989,
     "capacity": 24670,
-    "accessibility": 0.5
+    "walking_time_required": 15,
+    "bus_time_required": 10
   },
   {
+    "id": 43,
     "name": "CITY FOOTBALL STATION",
     "latitude": 36.3998,
     "longitude": 139.7177,
     "capacity": 5128,
-    "accessibility": 0.5
+    "walking_time_required": 30,
+    "bus_time_required": 4
   },
   {
+    "id": 44,
     "name": "正田醤油スタジアム群馬",
     "latitude": 36.4094,
     "longitude": 139.0438,
     "capacity": 15190,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 15
   },
   {
+    "id": 45,
     "name": "相模原ギオンスタジアム",
     "latitude": 35.5403,
     "longitude": 139.3597,
     "capacity": 6259,
-    "accessibility": 0.5
+    "walking_time_required": 20,
+    "bus_time_required": 20
   },
   {
+    "id": 46,
     "name": "サンプロ アルウィン",
     "latitude": 36.2032,
     "longitude": 137.9076,
     "capacity": 20336,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 30
   },
   {
+    "id": 47,
     "name": "長野Uスタジアム",
     "latitude": 36.6348,
     "longitude": 138.1641,
     "capacity": 15515,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 10
   },
   {
+    "id": 48,
     "name": "金沢ゴーゴーカレースタジアム",
     "latitude": 36.5818,
     "longitude": 136.6528,
     "capacity": 10728,
-    "accessibility": 0.5
+    "walking_time_required": 15,
+    "bus_time_required": 10
   },
   {
+    "id": 49,
     "name": "愛鷹広域公園多目的競技場",
     "latitude": 35.1475,
     "longitude": 138.8712,
     "capacity": 5110,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 20
   },
   {
+    "id": 50,
     "name": "岐阜メモリアルセンター長良川競技場",
     "latitude": 35.4429,
     "longitude": 136.7562,
     "capacity": 16310,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 20
   },
   {
+    "id": 51,
     "name": "東大阪市花園ラグビー場",
     "latitude": 34.661,
     "longitude": 135.6014,
     "capacity": 26443,
-    "accessibility": 0.5
+    "walking_time_required": 8,
+    "bus_time_required": null
   },
   {
+    "id": 52,
     "name": "ロートフィールド奈良",
     "latitude": 34.6733,
     "longitude": 135.8409,
     "capacity": 5369,
-    "accessibility": 0.5
+    "walking_time_required": 24,
+    "bus_time_required": 5
   },
   {
+    "id": 53,
     "name": "Axisバードスタジアム",
     "latitude": 35.5132,
     "longitude": 134.1919,
     "capacity": 11999,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 20
   },
   {
+    "id": 54,
     "name": "香川県立丸亀競技場",
     "latitude": 34.2893,
     "longitude": 133.8092,
     "capacity": 22338,
-    "accessibility": 0.5
+    "walking_time_required": 20,
+    "bus_time_required": 20
   },
   {
+    "id": 55,
     "name": "高知県立春野総合運動公園陸上競技場",
     "latitude": 33.5029,
     "longitude": 133.5101,
     "capacity": 16010,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 45
   },
   {
+    "id": 56,
     "name": "ミクニワールドスタジアム北九州",
     "latitude": 33.8761,
     "longitude": 130.8804,
     "capacity": 15300,
-    "accessibility": 0.5
+    "walking_time_required": 7,
+    "bus_time_required": null
   },
   {
+    "id": 57,
     "name": "いちご宮崎新富サッカー場",
     "latitude": 32.0731,
     "longitude": 131.4673,
     "capacity": 5375,
-    "accessibility": 0.5
+    "walking_time_required": 12,
+    "bus_time_required": 15
   },
   {
+    "id": 58,
     "name": "白波スタジアム",
     "latitude": 31.5542,
     "longitude": 130.5467,
     "capacity": 12606,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 16
   },
   {
+    "id": 59,
     "name": "沖縄県総合運動公園陸上競技場",
     "latitude": 26.3196,
     "longitude": 127.8061,
     "capacity": 10189,
-    "accessibility": 0.5
+    "walking_time_required": null,
+    "bus_time_required": 90
   }
 ]

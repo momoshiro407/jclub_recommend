@@ -6,7 +6,7 @@ from ..models import Club, Question, Choice, QuestionChoiceWeight, Prefecture, S
 
 
 def run_seed_clubs():
-    """ seed_clubs_2025.jsonを読み込み、Clubのシードデータを投入する。
+    """ seed_clubs_*.jsonを読み込み、Clubのシードデータを投入する。
         nameをユニークキーとしてupsertに対応可能。
     """
     path = Path(current_app.root_path) / 'seeds' / 'seed_clubs_2025.json'
@@ -72,10 +72,11 @@ def run_seed_clubs():
 
 
 def run_seed_stadiums():
-    """ seed_stadiums_2025.jsonを読み込み、Stadiumのシードデータを投入する。
-        nameをユニークキーとしてupsertに対応可能。
+    """ seed_stadiums_*.jsonを読み込み、Stadiumのシードデータを投入する。
+        nameは変更される場合があるため、idをユニークキーとしてupsertに対応可能。
     """
     path = Path(current_app.root_path) / 'seeds' / 'seed_stadiums_2025.json'
+    print(path)
     if not path.exists():
         raise FileNotFoundError(f'{path} not found')
 
@@ -83,22 +84,26 @@ def run_seed_stadiums():
         payload = json.load(f)
 
     for s in payload:
+        id = s.get('id', 0)
         name = s.get('name', '').strip()
-        latitude = int(s.get('latitude', 0))
-        longitude = int(s.get('longitude', 0))
+        latitude = float(s.get('latitude', 0))
+        longitude = float(s.get('longitude', 0))
         capacity = int(s.get('capacity', 0))
-        accessibility = int(s.get('accessibility', 0))
+        walking_time_required = s.get('walking_time_required', 0)
+        bus_time_required = s.get('bus_time_required', 0)
 
-        # nameをユニークキーとしてupsert
-        stadium = Stadium.query.filter_by(name=name).first()
+        # idをユニークキーとしてupsert
+        stadium = Stadium.query.filter_by(id=id).first()
         if stadium is None:
             db.session.add(
-                Stadium(name=name, latitude=latitude, longitude=longitude, capacity=capacity, accessibility=accessibility))
+                Stadium(id=id, name=name, latitude=latitude, longitude=longitude, capacity=capacity, walking_time_required=walking_time_required, bus_time_required=bus_time_required))
         else:
+            stadium.name = name
             stadium.latitude = latitude
             stadium.longitude = longitude
             stadium.capacity = capacity
-            stadium.accessibility = accessibility
+            stadium.walking_time_required = walking_time_required
+            stadium.bus_time_required = bus_time_required
 
     db.session.commit()
     print(f'Seed completed: stadiums inserted')

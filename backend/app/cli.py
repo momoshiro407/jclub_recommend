@@ -2,10 +2,10 @@ import click
 
 
 def register_commands(app):
-    @app.cli.command('seed-clubs')
     # --------------------------------------------------------
     # seedデータ投入・更新コマンド
     # --------------------------------------------------------
+    @app.cli.command('seed-clubs')
     def seed_clubs():
         """ J1〜J3全クラブをDBに投入
         """
@@ -36,6 +36,14 @@ def register_commands(app):
         from .seeds.load import run_seed_prefectures
         with app.app_context():
             run_seed_prefectures()
+
+    @app.cli.command('seed-stadiums')
+    def seed_stadiums():
+        """ スタジアムデータをDBに投入
+        """
+        from .seeds.load import run_seed_stadiums
+        with app.app_context():
+            run_seed_stadiums()
 
     @app.cli.command('migrate-stadiums')
     def migrate_stadiums():

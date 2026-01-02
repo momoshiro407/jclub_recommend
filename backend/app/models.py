@@ -110,6 +110,8 @@ class Stadium(db.Model):
         name: スタジアム名
         latitude: スタジアム所在地の緯度
         longitude: スタジアム所在地の経度
+        walking_time_required: 最寄り駅からスタジアムまでの徒歩所要時間（分）
+        bus_time_required: スタジアムまでのバス所要時間（分）
         特徴量カラム: クラブデータから参照しクラブの特徴として利用する
             - capacity: 収容人数
             - accessibility: アクセスの良さ
@@ -124,6 +126,8 @@ class Stadium(db.Model):
                          default=15000, server_default="15000")
     accessibility = db.Column(db.Float, nullable=False,
                               default=0.5, server_default="0.5")
+    walking_time_required = db.Column(db.Integer, nullable=True)
+    bus_time_required = db.Column(db.Integer, nullable=True)
 
     # スタジアムを使用するクラブとのリレーション
     clubs = db.relationship('Club', back_populates='stadium')
