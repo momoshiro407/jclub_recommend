@@ -152,3 +152,9 @@ def register_commands(app):
         from .scripts.features.financial_power.update_financial_power import update_financial_power
         with app.app_context():
             update_financial_power()
+
+    @app.cli.command('update-accessibility')
+    def exec_update_financial_power():
+        from .scripts.features.accessibility.update_accessibility import update_accessibility
+        with app.app_context():
+            update_accessibility()
